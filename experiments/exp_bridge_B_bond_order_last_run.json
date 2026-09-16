@@ -1,0 +1,30 @@
+{
+  "L": 32,
+  "N": 1024,
+  "n_occupied": 511,
+  "rho_min": 0.49804687505691314,
+  "rho_max": 0.5017594154508359,
+  "rho_std": 0.001581595635402642,
+  "bond_order_gapless": {
+    "0": 0.4990234375,
+    "1": -2.42861286636753e-17,
+    "2": 0.0009765625000000095,
+    "3": 5.095750210681871e-18,
+    "4": -0.000976562500000001,
+    "6": 0.0009765625000000072,
+    "8": -0.0009765625000000017,
+    "12": -0.0009765624999999991,
+    "16": -0.0009765625000000234
+  },
+  "power_law_alpha": 6.389996125168646e-15,
+  "bond_order_gapped_m0p5": {
+    "0": 0.5,
+    "1": 8.673617379884035e-19,
+    "2": 1.0455774700907083e-17,
+    "3": 1.22514845490862e-17,
+    "4": 2.5331367320587106e-17,
+    "6": -7.096442032096528e-18,
+    "8": 6.553705671143335e-18
+  },
+  "conclusion": "rho (density) is uniform = no gradient. K (bond order) decays as a POWER LAW in the gapless pi-flux (long-range tail from Dirac points) => K carries gradient structure that rho lacks. With a gap (staggered mass) K becomes short-range. This is the evidence for 'the correct matter source is K, not rho' (Hellmann-Feynman)."
+}

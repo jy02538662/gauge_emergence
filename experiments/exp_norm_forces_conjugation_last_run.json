@@ -1,0 +1,16 @@
+{
+  "i_squared": [
+    -1.0,
+    0.0
+  ],
+  "norm_neg_second": [
+    0.03325978340140712,
+    0.0
+  ],
+  "norm_pos_second": [
+    -0.0016436064090200007,
+    -0.03321914733825577
+  ],
+  "neg_gives_real": true,
+  "pos_gives_real": false
+}

@@ -1,0 +1,8 @@
+{
+  "L": 12,
+  "N": 144,
+  "delta": 0.1,
+  "symmetric_staggered_coupling": 0.0,
+  "antisymmetric_staggered_coupling": 0.060000000000000026,
+  "conclusion": "The symmetric endpoint-SUM form (forced by 'no preferred direction') DECOUPLES the staggered q=(pi,pi) mode exactly (rho_i+rho_j=0 on every edge) => no Peierls/spontaneous-mass instability => vacuum stays flat. An antisymmetric form would couple it (forbidden by the axiom). So the axiom ACTIVELY forbids spontaneous curvature: curvature needs INJECTED matter (local potential), not a spontaneous instability. This is the discrete analog of 'vacuum GR is flat; curvature requires T_mu_nu != 0'. Consequence for alpha: alpha is NOT a spontaneous-breaking critical coupling (that channel is forbidden); it is the EXTERNAL matter-geometry coupling constant (= 8 pi G analog), an INPUT whose 'is-an-input' status is itself DERIVED from 'no preferred direction'."
+}

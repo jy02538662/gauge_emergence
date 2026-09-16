@@ -1,0 +1,9 @@
+{
+  "n_automorphisms": 6,
+  "is_S3": true,
+  "chirality_ok": true,
+  "gamma2_ok": true,
+  "D_real": true,
+  "gamma_real_commute": true,
+  "has_Z2xZ2": true
+}

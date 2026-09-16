@@ -1,0 +1,11 @@
+{
+  "L": 4,
+  "anti_commute": true,
+  "F_equals_2TuTv": true,
+  "F2_sector_constant": true,
+  "F_traceless": true,
+  "Tr_FF_plain": 0.0,
+  "normF2_pi_flux": 768.0,
+  "normF2_no_flux": 0.0,
+  "conclusion": "F^2 = [T_u,T_v] is a GAUGE curvature (Yang-Mills, a4 order). Strict pi-flux makes it a sector constant (variation=0). EH (Einstein-Hilbert) comes from the a2 order = scalar curvature R in the heat-kernel expansion of Tr f(D/Lambda), NOT from F^2. The step 'F^2 becomes a field functional' = discrete->continuous (the real bridge-B wall)."
+}

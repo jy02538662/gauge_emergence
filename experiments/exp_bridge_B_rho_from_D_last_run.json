@@ -1,0 +1,17 @@
+{
+  "L": 12,
+  "N": 144,
+  "n_occupied": 73,
+  "pure_piflux_rho_std": 0.00992918882885171,
+  "pure_piflux_rho_min": 0.4899552521371989,
+  "pure_piflux_rho_max": 0.5138888888888893,
+  "staggered_mass_m": 0.5,
+  "staggered_rho_std": 0.14231492955215042,
+  "staggered_even_rho": 0.5000000000000002,
+  "staggered_odd_rho": 0.5,
+  "local_potential_V": 2.0,
+  "local_rho_std": 0.02602458009690148,
+  "local_rho_at_defect": 0.24234457444365398,
+  "local_rho_mean": 0.5,
+  "conclusion": "rho grows from D's valence band (E<0). Pure pi-flux => rho uniform (=1/2, flat). Staggered mass => staggered rho (translation-invariant). Local potential => local rho response (genuine inhomogeneity). This is the rho[D] side of the self-consistency loop rho=rho[D], D=D[rho], which is where the coupling alpha (8\u03c0G analog) gets its status fixed."
+}

@@ -1,0 +1,43 @@
+{
+  "L": 48,
+  "eps": 0.1,
+  "scan": [
+    {
+      "n": 1,
+      "k": 0.1308996938995747,
+      "max_abs_delta": 8.881784197001252e-16
+    },
+    {
+      "n": 2,
+      "k": 0.2617993877991494,
+      "max_abs_delta": 1.7763568394002505e-15
+    },
+    {
+      "n": 3,
+      "k": 0.39269908169872414,
+      "max_abs_delta": 8.881784197001252e-16
+    },
+    {
+      "n": 4,
+      "k": 0.5235987755982988,
+      "max_abs_delta": 8.881784197001252e-16
+    },
+    {
+      "n": 6,
+      "k": 0.7853981633974483,
+      "max_abs_delta": 8.881784197001252e-16
+    },
+    {
+      "n": 8,
+      "k": 1.0471975511965976,
+      "max_abs_delta": 8.881784197001252e-16
+    },
+    {
+      "n": 12,
+      "k": 1.5707963267948966,
+      "max_abs_delta": 8.881784197001252e-16
+    }
+  ],
+  "loglog_slope_p": null,
+  "conclusion": "The true delta(r) scaling (log-log slope p) tells what order of derivative delta really is.  p=2 would vindicate the old delta~grad^2 r (but the OLD claim was it's an IDENTITY, which the nonlinear test below checks).  p!=2 means the old 'R~-grad^2 rho' interpretation was wrong even in form."
+}

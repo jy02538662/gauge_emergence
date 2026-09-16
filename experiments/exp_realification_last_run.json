@@ -1,0 +1,6 @@
+{
+  "Gamma_linear": true,
+  "K_antilinear": true,
+  "Gamma_orthogonal_after_realify": true,
+  "K_orthogonal_after_realify": true
+}

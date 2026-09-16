@@ -1,0 +1,42 @@
+{
+  "R": {
+    "dim": 1,
+    "commutative": true,
+    "associative": true,
+    "normed": true,
+    "worst_norm_gap": 1.4210854715202004e-14,
+    "zero_divisor_found": false
+  },
+  "C": {
+    "dim": 2,
+    "commutative": true,
+    "associative": true,
+    "normed": true,
+    "worst_norm_gap": 1.4210854715202004e-14,
+    "zero_divisor_found": false
+  },
+  "H": {
+    "dim": 4,
+    "commutative": false,
+    "associative": true,
+    "normed": true,
+    "worst_norm_gap": 5.684341886080802e-14,
+    "zero_divisor_found": false
+  },
+  "O": {
+    "dim": 8,
+    "commutative": false,
+    "associative": false,
+    "normed": true,
+    "worst_norm_gap": 1.7053025658242404e-13,
+    "zero_divisor_found": false
+  },
+  "S": {
+    "dim": 16,
+    "commutative": false,
+    "associative": false,
+    "normed": false,
+    "worst_norm_gap": 426.3535120241691,
+    "zero_divisor_found": true
+  }
+}

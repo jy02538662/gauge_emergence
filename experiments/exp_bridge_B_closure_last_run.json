@@ -1,0 +1,10 @@
+{
+  "L": 20,
+  "alpha": 0.1,
+  "forced_form_corr_defect_vs_minus_laplacian": 0.9910552315848692,
+  "no_matter_defect_std": 0.0,
+  "endpoint_sum_symmetric": true,
+  "single_endpoint_symmetric": false,
+  "single_endpoint_asymmetry": 0.19541836920544609,
+  "conclusion": "The FORCED form r-1 \u221d (rho_i+rho_j-2) gives the SAME R~-laplacian(rho) structure (corr +0.99) as the earlier hand-placed midpoint density \u2014 because the hand-placed 'midpoint density' WAS the endpoint sum.  The endpoint-SUM (not single-endpoint) is forced by the symmetry f(a,b)=f(b,a) ('no preferred direction' on an undirected edge): single-endpoint breaks it, the sum keeps it.  So the back-reaction FORM is derived (up to the coupling alpha=8\u03c0G analog); the weld closes the gap between 'mechanism verified' and 'form forced'."
+}

@@ -1,0 +1,12 @@
+{
+  "L": 4,
+  "holonomy_all_minus_one": true,
+  "angle_defect": {
+    "valence_4_flat": 0.0,
+    "valence_3_sphere": 1.5707963267948966,
+    "valence_5_hyperbolic": -1.5707963267948966
+  },
+  "pi_flux_valence": 4,
+  "pi_flux_angle_defect": 0.0,
+  "conclusion": "Gauge curvature (holonomy=-1) is intrinsic to D and already cut. Scalar curvature (angle defect) = (4-valence)*pi/2 depends on the combinatorial valence, not on moduli. The pi-flux torus is 4-regular => defect 0 => FLAT => scalar curvature (EH) not cut. To cut R needs valence != 4 (sphere/hyperbolic), a new mechanism the 'One' does not currently have; OR the continuum a2 coefficient (Chamseddine-Connes)."
+}

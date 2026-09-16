@@ -1,0 +1,40 @@
+{
+  "L": 16,
+  "N": 256,
+  "mix": 0.15,
+  "n_iter": 800,
+  "site": 136,
+  "results": [
+    {
+      "alpha": 0.0,
+      "V": 0.0,
+      "rho_defect": 0.4921874999999996,
+      "rho_far": 0.49218749999999994,
+      "contrast": 3.3306690738754696e-16,
+      "moduli_std": 0.0,
+      "tail_span": 0.0,
+      "converged": true
+    },
+    {
+      "alpha": 0.2,
+      "V": 0.0,
+      "rho_defect": 0.5078125000000006,
+      "rho_far": 0.5078125000000006,
+      "contrast": 0.0,
+      "moduli_std": 0.00022175289470601086,
+      "tail_span": 0.015625000000001388,
+      "converged": false
+    },
+    {
+      "alpha": 0.2,
+      "V": 2.0,
+      "rho_defect": 0.19027448264481905,
+      "rho_far": 0.4934970377668617,
+      "contrast": 0.30322255512204266,
+      "moduli_std": 0.004780141722250444,
+      "tail_span": 0.00037144063467389743,
+      "converged": false
+    }
+  ],
+  "note": "Full loop rho=rho[D], D=D[rho] with injected local potential V. V=0 stays flat (rho uniform ~1/2, no spontaneous breaking). V!=0 converges to a self-consistent inhomogeneous solution: the defect depresses rho locally and the moduli respond, settling into a coupled defect (discrete matter-source-curves-geometry)."
+}

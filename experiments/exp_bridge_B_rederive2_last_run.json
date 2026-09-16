@@ -1,0 +1,7 @@
+{
+  "L": 48,
+  "eps": 0.1,
+  "note": "single-freq scalar and shear give same delta (both pure stretch). The channel separation needs a cross/product pattern; see the two discriminator lines at the end.",
+  "scalar_product_maxdelta": 0.04415150553144187,
+  "shear_diff_maxdelta": 0.04226112743350896
+}

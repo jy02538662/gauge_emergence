@@ -1,0 +1,11 @@
+{
+  "K_squared": 1.0,
+  "i_powers": [
+    "(1+0j)",
+    "1j",
+    "(-1+0j)",
+    "(-0-1j)"
+  ],
+  "i4_equals_1": true,
+  "topo_Z2": true
+}

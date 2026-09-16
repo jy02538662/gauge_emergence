@@ -1,0 +1,11 @@
+{
+  "L": 64,
+  "alpha": 0.3,
+  "poisson_residual": 2.3592239273284576e-16,
+  "Phi_center": -0.7106653018865113,
+  "dPhi_4_16": 0.2064321347014346,
+  "delta_at_defect": -0.2321383194865394,
+  "delta_max": 0.2321383194865394,
+  "delta_far_r16": 7.729367412578902e-05,
+  "conclusion": "Check: Phi ~ ln r (long-range, SLOW decay), delta concentrated at defect (peak at source, decays fast / ~0 far).  If both hold, the chain 'defect -> long-range potential -> curvature at source' is confirmed in the discrete model."
+}

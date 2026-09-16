@@ -1,0 +1,13 @@
+{
+  "L": 24,
+  "poisson_residual": 7.771561172376096e-15,
+  "AB_r_rho": {
+    "corr_delta_vs_rho": 0.8587406508851433,
+    "corr_delta_vs_minus_lap_rho": 0.9504797814457696
+  },
+  "C_r_Phi": {
+    "corr_delta_vs_rho": -0.7227600371390691,
+    "corr_delta_vs_minus_lap_rho": -0.25542968662644305
+  },
+  "conclusion": "If case C gives corr(delta, rho) ~ 1, Read C is confirmed: the no-preferred-direction acts on curvature (potential back-reaction), giving delta ~ rho = GR field equation trace, welding the two halves."
+}

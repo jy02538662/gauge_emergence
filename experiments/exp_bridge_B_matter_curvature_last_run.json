@@ -1,0 +1,21 @@
+{
+  "L": 20,
+  "eps_scan": [
+    {
+      "eps": 0.0,
+      "defect_std": 0.0,
+      "corr_defect_vs_minus_laplacian_rho": null
+    },
+    {
+      "eps": 0.05,
+      "defect_std": 0.001974812153420035,
+      "corr_defect_vs_minus_laplacian_rho": 0.9942431740307518
+    },
+    {
+      "eps": 0.2,
+      "defect_std": 0.0074487343737956735,
+      "corr_defect_vs_minus_laplacian_rho": 0.9910552315848694
+    }
+  ],
+  "conclusion": "Matter density rho -> edge moduli -> angle defect != 0 (curvature). UNIFORM rho gives defect 0 (similarity transform). The defect correlates with -laplacian(rho), i.e. R ~ -laplacian(Phi), the weak-field GR structure.  HONESTY: 'edge = 1+eps*rho' is a hand-placed back-reaction, NOT derived from reflexivity; this verifies the mechanism FRAME, not the back-reaction law."
+}

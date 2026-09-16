@@ -1,0 +1,6 @@
+{
+  "L": 48,
+  "offdiag_weight_full": 0.707,
+  "analytic": "lower-band off-diagonal projector = -(d.sigma)/(2|d|) has ORDER-1 magnitude 1/2 near Dirac point (independent of |k|); bond order dD/dk = -2 sin(kx)sx - 2 sin(ky)sz is a NONZERO gradient vector, which the scalar density (tr P) does not see.",
+  "conclusion": "Candidate C survives: the matter source (bond order) is the GRADIENT of D, carrying a vector structure (sx/sz) absent from the scalar rho. The direction-averaged K(r) in bond_order.py hid this by cancellation; the full momentum structure shows the bond order is ORDER-1, not 1e-3."
+}

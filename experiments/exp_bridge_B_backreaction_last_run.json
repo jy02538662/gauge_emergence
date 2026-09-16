@@ -1,0 +1,6 @@
+{
+  "forced_form": "r_ij - 1 \u221d (rho_i + rho_j - 2)  [endpoint sum, by isotropy+locality+smoothness]",
+  "free_input": "alpha (the coupling constant, 8\u03c0G analog) \u2014 the ONLY residual freedom",
+  "no_matter_limit": "rho=1 => r=1 (equal moduli, theorem 1 recovered)",
+  "conclusion": "The back-reaction FORM (modulus \u221d local density) is forced by 'no preferred direction' read LOCALLY (f depends only on endpoint densities, symmetric) + smoothness.  The coefficient alpha is the sole hand-placed input.  So 'r-1 \u221d rho' is almost derived \u2014 up to one coupling constant (= the 8\u03c0G analog)."
+}

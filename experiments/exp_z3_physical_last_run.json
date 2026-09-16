@@ -1,0 +1,13 @@
+{
+  "physical_on_4x4": false,
+  "n_order3_automorphisms": 56,
+  "example": [
+    1,
+    4,
+    5,
+    6,
+    7,
+    2,
+    3
+  ]
+}

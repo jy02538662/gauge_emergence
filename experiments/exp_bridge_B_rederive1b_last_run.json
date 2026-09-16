@@ -1,0 +1,8 @@
+{
+  "L": 48,
+  "eps": 0.1,
+  "k_mode": 3,
+  "isotropic_x_maxdelta": 0.01684492370212176,
+  "cross_maxdelta": 1.7763568394002505e-15,
+  "shear_maxdelta": 0.016844923671425427
+}

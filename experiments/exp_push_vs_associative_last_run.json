@@ -1,0 +1,5 @@
+{
+  "non_commutative": true,
+  "qcomm_relation_ok": true,
+  "associative": true
+}

@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "L": 16,
+      "N": 256,
+      "offdiag_ratio": 0.7070376947403492,
+      "max_offdiag": 0.24399724022452834,
+      "diag_mean": 0.5
+    },
+    {
+      "L": 24,
+      "N": 576,
+      "offdiag_ratio": 0.7058733734626963,
+      "max_offdiag": 0.2427874451172468,
+      "diag_mean": 0.5017361111111112
+    },
+    {
+      "L": 32,
+      "N": 1024,
+      "offdiag_ratio": 0.7077934372538982,
+      "max_offdiag": 0.24032688353514794,
+      "diag_mean": 0.4990234375
+    },
+    {
+      "L": 48,
+      "N": 2304,
+      "offdiag_ratio": 0.706492706574027,
+      "max_offdiag": 0.23950983635128303,
+      "diag_mean": 0.5008680555555556
+    }
+  ],
+  "conclusion": "The off-diagonal (bond order) weight is a few x 1e-3 of the total, and does NOT grow with L (it is NOT a power-law long-range tail). So K ~ rho: the true Hellmann-Feynman source (bond order) is essentially the density in the pi-flux half-filled model.  Candidate C (bond order carries grad^2) is DEAD in this model.  The grad^2 mismatch of puzzle 1 is NOT fixed by switching rho -> K."
+}

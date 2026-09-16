@@ -1,0 +1,43 @@
+{
+  "n_nonzero_triples": 168,
+  "total_antisymmetry": true,
+  "cyclic_invariance": true,
+  "n_lines": 7,
+  "lines": [
+    [
+      1,
+      2,
+      3
+    ],
+    [
+      1,
+      4,
+      5
+    ],
+    [
+      1,
+      6,
+      7
+    ],
+    [
+      2,
+      4,
+      6
+    ],
+    [
+      2,
+      5,
+      7
+    ],
+    [
+      3,
+      4,
+      7
+    ],
+    [
+      3,
+      5,
+      6
+    ]
+  ]
+}
