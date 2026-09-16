@@ -1,0 +1,30 @@
+{
+  "L": 48,
+  "eps": 0.2,
+  "uniform_p": NaN,
+  "uniform_G": {
+    "1": 0.0,
+    "2": 0.1441690837988813,
+    "3": 0.0,
+    "4": 0.10202081726777364,
+    "5": 0.0,
+    "6": 0.07603118010401486
+  },
+  "cut_far_G": {
+    "1": 0.0,
+    "2": 0.14397502440113183,
+    "3": 0.0,
+    "4": 0.101822914514175,
+    "5": 0.0,
+    "6": 0.07582687116231658
+  },
+  "cut_near_G": {
+    "1": 0.0,
+    "2": 1.644616916406809,
+    "3": 0.0,
+    "4": 0.7032646832230088,
+    "5": 0.0,
+    "6": 0.41814393070582145
+  },
+  "conclusion": "If cut(far) ~ uniform (both 1/r), cutting did NOT create 1/r -- it was already there from Dirac points. Then candidate 3's 'cut creates 1/r' is refuted; the long-range is a Dirac-point property."
+}

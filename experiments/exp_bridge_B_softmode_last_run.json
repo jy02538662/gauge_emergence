@@ -1,0 +1,51 @@
+{
+  "L": 32,
+  "eps": 0.05,
+  "scan": [
+    {
+      "EF": -2.0,
+      "m2": -10398.50309371104
+    },
+    {
+      "EF": -1.75,
+      "m2": -823.523655631925
+    },
+    {
+      "EF": -1.5,
+      "m2": -7953.371228892727
+    },
+    {
+      "EF": -1.25,
+      "m2": -503.63229375275284
+    },
+    {
+      "EF": -1.0,
+      "m2": 1166.602428846272
+    },
+    {
+      "EF": -0.75,
+      "m2": 4030.3583509556565
+    },
+    {
+      "EF": -0.5,
+      "m2": 148.46870496226072
+    },
+    {
+      "EF": -0.25,
+      "m2": -595.179032345959
+    },
+    {
+      "EF": 0.0,
+      "m2": -821.4532023255741
+    },
+    {
+      "EF": 0.2,
+      "m2": -595.179032345868
+    },
+    {
+      "EF": 0.5,
+      "m2": 148.4687049623062
+    }
+  ],
+  "conclusion": "m^2(E_F) for staggered modulus perturbation. If negative and growing more negative with |E_F|, the fermion back-reaction softens the modulus; adding the (positive) trace-action mass could give a critical density where m^2 -> 0 (soft mode / massless geometry). If positive, no softening: the modulus stays massive."
+}

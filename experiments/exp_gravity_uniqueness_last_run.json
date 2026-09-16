@@ -1,1 +1,5 @@
-
+{
+  "functional_equation_err": 0.0,
+  "selfref_power": 1.1113041950794549,
+  "verdict": "UNIQUENESS CHAIN SOLID: rho(c l)=c^-1 rho(l) => rho=C/l => 1/t, and A forces CONTINUOUS => pure 1/t."
+}

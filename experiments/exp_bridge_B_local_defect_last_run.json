@@ -1,0 +1,109 @@
+{
+  "L": 48,
+  "V0": 2.0,
+  "scan": [
+    {
+      "r": 0,
+      "max_deltaK": 0.06384032925544048
+    },
+    {
+      "r": 1,
+      "max_deltaK": 0.06384032925544059
+    },
+    {
+      "r": 2,
+      "max_deltaK": 0.012655585900387845
+    },
+    {
+      "r": 3,
+      "max_deltaK": 0.003328672179302661
+    },
+    {
+      "r": 4,
+      "max_deltaK": 0.0016749317354161075
+    },
+    {
+      "r": 5,
+      "max_deltaK": 0.001674931735416385
+    },
+    {
+      "r": 6,
+      "max_deltaK": 0.0016749317354159965
+    },
+    {
+      "r": 7,
+      "max_deltaK": 0.0016749317354163296
+    },
+    {
+      "r": 8,
+      "max_deltaK": 0.0016749317354161075
+    },
+    {
+      "r": 9,
+      "max_deltaK": 0.0016749317354164406
+    },
+    {
+      "r": 10,
+      "max_deltaK": 0.001674931735416052
+    },
+    {
+      "r": 11,
+      "max_deltaK": 0.0016749317354162185
+    },
+    {
+      "r": 12,
+      "max_deltaK": 0.001674931735416163
+    },
+    {
+      "r": 13,
+      "max_deltaK": 0.001674931735416385
+    },
+    {
+      "r": 14,
+      "max_deltaK": 0.001674931735416274
+    },
+    {
+      "r": 15,
+      "max_deltaK": 0.001674931735416274
+    },
+    {
+      "r": 16,
+      "max_deltaK": 0.0016749317354161075
+    },
+    {
+      "r": 17,
+      "max_deltaK": 0.0016749317354173843
+    },
+    {
+      "r": 18,
+      "max_deltaK": 0.0016749317354163296
+    },
+    {
+      "r": 19,
+      "max_deltaK": 0.0016749317354172177
+    },
+    {
+      "r": 20,
+      "max_deltaK": 0.0016749317354169957
+    },
+    {
+      "r": 21,
+      "max_deltaK": 0.0016749317354177728
+    },
+    {
+      "r": 22,
+      "max_deltaK": 0.0016749317354168847
+    },
+    {
+      "r": 23,
+      "max_deltaK": 0.0016749317354172177
+    },
+    {
+      "r": 24,
+      "max_deltaK": 0.0016749317354171622
+    }
+  ],
+  "power_law_alpha": 0.3053980467519205,
+  "verdict": "deltaK ~ r^-0.31: long-range (alpha<3), matter source long-range",
+  "conclusion": "delta K vs distance. Power-law exponent alpha decides whether the defect produces a long-range bond-order response (matter source). alpha=1 => 1/r (like 3D Poisson), alpha=2 => 1/r^2, alpha=3 => 1/r^3."
+}

@@ -1,0 +1,19 @@
+{
+  "L": 400,
+  "gapless_C_odd": {
+    "1": 0.10132326700137341,
+    "3": 0.011259992858265672,
+    "5": 0.004054931321736535,
+    "11": 0.0008394516010440656
+  },
+  "gapped_C": {
+    "1": 0.09511556907923821,
+    "2": 5.308344409217319e-33,
+    "3": 0.008113349321218292,
+    "4": 2.6167256565688646e-32,
+    "5": 0.002048062760162195
+  },
+  "gapless_alpha": 1.9990418413714928,
+  "gapped_xi": null,
+  "conclusion": "Gapless H -> C(r) ~ 1/r^2 (power law, LONG range). Gapped H -> exponential (SHORT range). Long-range 1/r requires a gapless (massless) spectrum = continuous spectrum of log(Delta), which finite D does not have => long-range lives in R, not D."
+}

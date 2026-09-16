@@ -1,0 +1,29 @@
+{
+  "k_scan": [
+    {
+      "r": 0.5,
+      "offdiag": 0.5
+    },
+    {
+      "r": 0.2,
+      "offdiag": 0.4999999999999999
+    },
+    {
+      "r": 0.1,
+      "offdiag": 0.4999999999999999
+    },
+    {
+      "r": 0.05,
+      "offdiag": 0.4999999999999999
+    },
+    {
+      "r": 0.02,
+      "offdiag": 0.4999999999999999
+    },
+    {
+      "r": 0.01,
+      "offdiag": 0.5
+    }
+  ],
+  "conclusion": "Bond order (lower-band off-diagonal) has magnitude 1/2 INDEPENDENT of |delta k| => k^0 (a direction unit vector in (px,py)), NOT k^-2. Therefore grad^2 K ~ k^2, which does NOT recover rho ~ k^0.  Candidate C (bond order as source) does NOT fix puzzle 1's grad^2 mismatch.  The bond order IS the correct Hellmann-Feynman source (T_ij, not T_00), but the grad^2 mismatch between local reaction r~rho and GR's delta~rho remains."
+}

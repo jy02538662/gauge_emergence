@@ -1,0 +1,3 @@
+{
+  "conclusion": "Finite D gives a DISCRETE (gapped) modular-flow spectrum theta_ij = ln(lambda_i/lambda_j). The gap -> 0 only as N->infinity (R layer). So long-range 1/r (gapless continuous spectrum) is a property of R, not D \u2014 the spectral basis of the modular-flow pull-back proposition."
+}
