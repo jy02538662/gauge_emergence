@@ -119,6 +119,7 @@ py -m experiments.exp_division_ladder
 | `exp_gravity_tr_mapping` | t→r 映射 + 3D 静态势？ | 尺度不变 ⟹ 光锥 r=t；3D 静态势 = 1/(4πr)（实测 r⁻⁰·⁹⁹⁷） |
 | `exp_gravity_cognition_compactness` | 观察者认知 → 几何紧致性？ | 有隙（离散 ρ）→ 有限延展（紧致）；无隙（自指递归）→ 无限延展（非紧致 ℝ³） |
 | `exp_gravity_uniqueness` | 唯一性：尺度不变 ⟹ ρ=C/λ ⟹ 1/t | ✅ 函数方程 ρ(cλ)=c⁻¹ρ(λ) 唯一解 ρ=C/λ（误差 0）；FT[log\|ω\|]=-π/\|t\| → 1/t |
+| `exp_gravity_gapB` | 缺口 B：1/r 是几何势（Dirac 传播子）吗？ | ✅ 幂律 1/r（交错）：奇扇区 r⁻¹·⁵、偶扇区常数（(-1)^r 费米面 nest）。**1/r 是几何的**，但交错 2D Dirac ≠ 观察者态的 3D 光滑 Coulomb（缺口 C） |
 
 **统一链（验证版 + 唯一性已解）**：自指递归观察者 → 尺度不变 → 1/t → 光锥 r=t → 1/r（3D Coulomb）→ 无隙谱 → 非紧致 ℝ³（不被截断）。**唯一性已解（A：无外部观察者 = 无偏好，一个公设两个数学面：面① 自反性 + 面② 无偏好）**。剩 EH 方程 + 桥 C 可证伪预言。见 vault [[引力侧长程问题：权威交接文档]] §六·五。
 
