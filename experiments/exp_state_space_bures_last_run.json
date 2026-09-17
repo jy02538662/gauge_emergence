@@ -1,0 +1,34 @@
+{
+  "turn": "geometry on state space S(R) (Bures metric), not on R",
+  "partA_sanity": {
+    "max_dev": 1.1102230246251565e-15
+  },
+  "partB_metric_verify": {
+    "r": [
+      0.3,
+      -0.2,
+      0.45
+    ],
+    "max_dev": 3.3281805678075926e-07
+  },
+  "partC_full_state_curvature": {
+    "K_analytic": 4.0,
+    "K_numeric_mean_interior": 4.089111773159487,
+    "hemisphere_of_S3": true,
+    "constant_curvature": true
+  },
+  "partC_conclusion": "full state-space Bures metric is maximally symmetric (constant K=4, hemisphere of S^3), no intrinsic point-varying curvature",
+  "partD_family": {
+    "K_mean": -10.22800287823177,
+    "K_std": 36.95144769402139,
+    "K_min": -82.29895225542127,
+    "K_max": 35.246773148707874,
+    "varying": true
+  },
+  "partD_conclusion": "1D family flat; 2D family non-constant K but INPUT via family (the 'state = position' identification gap, still open)",
+  "partE_N4": {
+    "g_fd": 0.03297138129187971,
+    "g_closed": 0.03297139452044081
+  },
+  "verdict": "Layer 1 is a real computable anchor; it RELOCATES the wall to the two identification gaps (state=position, state-space=physical geometry); it does not dissolve the Connes wall ('from measure to differential structure')."
+}

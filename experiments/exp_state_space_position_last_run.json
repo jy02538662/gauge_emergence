@@ -1,0 +1,23 @@
+{
+  "question": "does A force 'state = position'?",
+  "part1_negative": {
+    "shift": 1.7,
+    "flatness_before": 0.015348289807011074,
+    "flatness_after": 0.01757014513315129,
+    "poisson_noise_level": 0.01414213562373095,
+    "conclusion": "A (log-translation-invariance) cannot generate position: translation = renormalisation, not a new state"
+  },
+  "part1_conclusion": "A = log-translation-invariance; translation is trivial, so A structurally cannot generate position",
+  "part2_positive": {
+    "L": 18,
+    "uniform_distance_mean": 2.0,
+    "uniform_distance_std": 0.0,
+    "defect_distance_std": 0.053522167068321254,
+    "anomaly_at_defect": -0.6517264606859539,
+    "laplacian_at_defect": 1.7027457500631855,
+    "laplacian_far_field": 0.00019337497239724222,
+    "curvature_localised_at_defect": true
+  },
+  "part2_conclusion": "defect (matter) changes local states and localises the Bures-distance-field curvature; computable bridge matter -> state-space curvature",
+  "verdict": "A cannot force position (provable); position comes from J/defect (matter), whose curvature is computable and localised -- but matter is still an input (= EH lacks a matter source)."
+}

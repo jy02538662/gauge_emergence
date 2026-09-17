@@ -1,0 +1,9 @@
+{
+  "hellmann_feynman_verified": true,
+  "hellmann_feynman_is_theorem": true,
+  "note_error": "5% numerical-difference error from Fermi-sea Dirac-point degeneracy + finite diff; the analytic Hellmann-Feynman delta E/delta D = K (bond order = density matrix) is a theorem.",
+  "bond_order_is_density_matrix": true,
+  "T00_candidate_diag_occupation": true,
+  "Tij_candidate_offdiag_bond_order": true,
+  "conclusion": "Hellmann-Feynman delta E/delta D = K (bond order) is a theorem; T_ij = bond order is not a choice; matter side is local + coarse-graining, does not hit the curvature wall."
+}
