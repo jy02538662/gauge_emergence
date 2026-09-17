@@ -1,0 +1,46 @@
+{
+  "e_non_trivial": true,
+  "metric_S_anisotropic": true,
+  "torsion_A_nonzero": true,
+  "e_continuous": false,
+  "constant_metric_zero_curvature": true,
+  "rows": [
+    {
+      "k": 2,
+      "norm_S_minus_I": 1.082392200292394,
+      "norm_h_spin2": 0.5773502691896257,
+      "norm_A_torsion": 0.9999999999999999
+    },
+    {
+      "k": 3,
+      "norm_S_minus_I": 0.6013120164873027,
+      "norm_h_spin2": 0.5344039501417164,
+      "norm_A_torsion": 1.0881254497414106
+    },
+    {
+      "k": 4,
+      "norm_S_minus_I": 0.49127138863704284,
+      "norm_h_spin2": 0.4482877360840266,
+      "norm_A_torsion": 1.0606601717798212
+    },
+    {
+      "k": 5,
+      "norm_S_minus_I": 0.6544903516207491,
+      "norm_h_spin2": 0.36781900008232443,
+      "norm_A_torsion": 0.9961802720484103
+    },
+    {
+      "k": 10,
+      "norm_S_minus_I": 1.291245151856115,
+      "norm_h_spin2": 0.15220861960469043,
+      "norm_A_torsion": 0.6830127018922193
+    },
+    {
+      "k": 50,
+      "norm_S_minus_I": 1.7068589903516562,
+      "norm_h_spin2": 0.00889450713526186,
+      "norm_A_torsion": 0.17015360454640324
+    }
+  ],
+  "conclusion": "q-deformation gives non-trivial e: anisotropic metric S + antisymmetric torsion A (both non-zero at finite k), but constant => flat, no curvature. Curvature needs position-dependence (domain wall)."
+}

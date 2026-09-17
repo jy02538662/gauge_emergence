@@ -1,0 +1,9 @@
+{
+  "power_law_D_long_range": true,
+  "nn_D_short_range": true,
+  "slope_power_law": -0.9999999999999997,
+  "long_range_is_flat_not_curved": true,
+  "key_distinction": "long range (scale invariance, translation-invariant) vs curvature (position-dependence, needs defect) are two ORTHOGONAL axes.",
+  "honest": "long range = no characteristic scale (confirmed), but power-law D is an INPUT and gives FLAT (translation-invariant), not curved.",
+  "note": "self-referential D (A/B/C) loops back short range; input power-law D gives long range but flat; no construction gives long+curved yet."
+}

@@ -1,0 +1,10 @@
+{
+  "norm_dF": 2.8284271247461903,
+  "power_self_referential": 0.4013136514023862,
+  "power_ordinary": 0.1732575557827175,
+  "dF_h_omega_smooth_no_log_singularity": true,
+  "control_h_log_gives_1t": true,
+  "control_h_cusp_gives_1t2": false,
+  "conclusion": "self-referential observer rho does NOT make a local defect curvature continuous; continuity needs the observable itself scale-invariant (h~log|omega|). The wall is sharper: the metric must BE self-referential.",
+  "honest_boundary": "finite N discrete spectrum => quasi-periodic G(t); clean 1/t is N->inf (R) limit, and even then needs a scale-invariant observable."
+}

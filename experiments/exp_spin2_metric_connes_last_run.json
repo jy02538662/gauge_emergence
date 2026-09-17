@@ -1,0 +1,7 @@
+{
+  "connes_distance_geodesic_always_long": true,
+  "propagator_long_iff_massless": true,
+  "infinite_D_gives_geodesic_not_1r": true,
+  "conclusion": "long-range 1/r needs massless (gapless) modes, not infinite dimension; the axiom allows infinite D but that gives the geodesic |x-y|, not 1/r.",
+  "note": "clarifies \u65e0\u9650\u7ef4 D \u63a8\u6f14: Connes distance (geodesic) != propagator (1/r); gapless != infinite-dimensional."
+}

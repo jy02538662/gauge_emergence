@@ -1,0 +1,98 @@
+{
+  "uniform_F_block_diagonal": true,
+  "defect_makes_F_position_dependent": true,
+  "rows": [
+    {
+      "axis": "x",
+      "site": [
+        0,
+        0,
+        0
+      ],
+      "comm_F_T2": [
+        6.928203230275509,
+        4.0,
+        4.0
+      ],
+      "comm_F_chi": 5.656854249492381,
+      "norm_F_change": 2.8284271247461903
+    },
+    {
+      "axis": "x",
+      "site": [
+        1,
+        2,
+        1
+      ],
+      "comm_F_T2": [
+        6.928203230275509,
+        4.0,
+        4.0
+      ],
+      "comm_F_chi": 5.656854249492381,
+      "norm_F_change": 2.8284271247461903
+    },
+    {
+      "axis": "y",
+      "site": [
+        0,
+        0,
+        0
+      ],
+      "comm_F_T2": [
+        4.0,
+        6.928203230275509,
+        4.0
+      ],
+      "comm_F_chi": 5.656854249492381,
+      "norm_F_change": 2.8284271247461903
+    },
+    {
+      "axis": "y",
+      "site": [
+        1,
+        2,
+        1
+      ],
+      "comm_F_T2": [
+        4.0,
+        6.928203230275509,
+        4.0
+      ],
+      "comm_F_chi": 5.656854249492381,
+      "norm_F_change": 2.8284271247461903
+    },
+    {
+      "axis": "z",
+      "site": [
+        0,
+        0,
+        0
+      ],
+      "comm_F_T2": [
+        0.0,
+        0.0,
+        8.0
+      ],
+      "comm_F_chi": 5.656854249492381,
+      "norm_F_change": 0.0
+    },
+    {
+      "axis": "z",
+      "site": [
+        1,
+        2,
+        1
+      ],
+      "comm_F_T2": [
+        0.0,
+        0.0,
+        8.0
+      ],
+      "comm_F_chi": 5.656854249492381,
+      "norm_F_change": 0.0
+    }
+  ],
+  "honest_boundary": "curvature (F) position-dependence from a defect, not yet a varying metric G (needs vielbein torsion-free link).",
+  "note": "a flux defect breaks F_xy momentum block-diagonality => position-dependent curvature; the domain (position) is seeded by a defect (matter=Q2, spin-2 version)."
+}

@@ -1,0 +1,54 @@
+{
+  "frame_metric": "G_ab(q) = tr_q(X_a X_b), tr_q = tr(K^{-2 rho} .), rho=J_z",
+  "orthogonality_broken_by_q": true,
+  "G_xy_nonzero_G_xz_G_yz_zero": true,
+  "anisotropic_at_finite_k": true,
+  "gxx_gyy_equal": true,
+  "rows": [
+    {
+      "k": 2,
+      "G_xx": 0.7071067811865475,
+      "G_zz": 2.220446049250313e-16,
+      "abs_G_xy": 0.7071067811865475
+    },
+    {
+      "k": 3,
+      "G_xx": 1.0590169943749475,
+      "G_zz": 0.4045084971874738,
+      "abs_G_xy": 0.7694208842938133
+    },
+    {
+      "k": 4,
+      "G_xx": 1.2990381056766584,
+      "G_zz": 0.7500000000000007,
+      "abs_G_xy": 0.75
+    },
+    {
+      "k": 5,
+      "G_xx": 1.4627137688317857,
+      "G_zz": 1.0122293348805764,
+      "abs_G_xy": 0.7044058256496907
+    },
+    {
+      "k": 10,
+      "G_xx": 1.8024421300268765,
+      "G_zz": 1.6160254037844386,
+      "abs_G_xy": 0.4829629131445341
+    },
+    {
+      "k": 50,
+      "G_xx": 1.9890732848085482,
+      "G_zz": 1.9781797828110803,
+      "abs_G_xy": 0.1203167676180959
+    },
+    {
+      "k": 500,
+      "G_xx": 1.9998825092587036,
+      "G_zz": 1.9997650223519325,
+      "abs_G_xy": 0.012515733508926607
+    }
+  ],
+  "classical_limit_isotropic": true,
+  "honest_boundary": "G_ab is constant => Riemann=0; anisotropy != curvature; real curvature needs domain (paid-bridge-2 wall, open).",
+  "note": "q-deformed frame metric is anisotropic (G_zz != G_xx=G_yy) at finite k, isotropic only as k->inf. Clean signature that SO_q(3) is non-trivial, but anisotropy is not yet curvature (no domain)."
+}

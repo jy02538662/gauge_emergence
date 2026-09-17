@@ -1,0 +1,8 @@
+{
+  "Dx_h_omega_smooth": true,
+  "power_self_referential": -0.18068448367916282,
+  "power_ordinary": -0.057842624582441514,
+  "observer_does_not_make_Dx_long_range": true,
+  "wall_name": "finite-lattice self-consistent solution is short-range",
+  "note": "the untried combination (observer rho on [D,x]) is also short-range: [D,x] has a smooth h(omega) like deltaF, so the observer does not make it long-range."
+}

@@ -1,0 +1,8 @@
+{
+  "slope_D2_energy": NaN,
+  "slope_D2_position": -2.6350515972119255,
+  "slope_deltaF": -0.35100754746704343,
+  "slope_J": NaN,
+  "candidate1_D2_has_log_singularity": true,
+  "note": "which observable carries h~log|omega| (self-referential metric candidate)."
+}

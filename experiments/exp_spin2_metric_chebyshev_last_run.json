@@ -1,0 +1,8 @@
+{
+  "zeros_non_uniform": true,
+  "normalized_density_N_independent": true,
+  "spectral_metric_position_dependent": true,
+  "spectral_metric_g_x": "pi^2(4-x^2)/N^2 (vanishes at edge, maximal in bulk)",
+  "wall": "spectral coordinate -> physical position map NOT defined (open)",
+  "note": "Chebyshev-zeros non-uniformity is a real N-independent seed of a position-dependent e, but it lives on the spectral axis; the bridge to real space is the open problem."
+}

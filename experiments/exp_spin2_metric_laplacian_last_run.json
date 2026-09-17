@@ -1,0 +1,7 @@
+{
+  "Dx_is_x_hopping_gamma1": true,
+  "periodic_boundary_artifact": "x=0<->3 raw coordinate jump +-3 (not physical)",
+  "defect_Dx_local_change_2_sites": true,
+  "conclusion": "[D,x] (vielbein) is flat/constant; a defect changes it locally (2 sites), not continuous -- domain wall stands.",
+  "note": "direct face-off with 'e position-dependent' via Connes {D,x}=gamma^a e_a."
+}

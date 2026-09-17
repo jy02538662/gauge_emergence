@@ -1,0 +1,9 @@
+{
+  "dixmier_nonzero_iff_1n": true,
+  "Trw_1n_tends_to_1": true,
+  "Trw_1n2_tends_to_0": true,
+  "pi_flux_D_not_compact_no_log_singularity": true,
+  "unified": "eigenvalue 1/n (Dixmier) = Fourier log|omega| (observer) = scale invariance",
+  "wall": "g=F[g] needs precise F (concept), not solved here",
+  "note": "Dixmier trace is the log-singularity detector (nonzero iff mu_n ~ 1/n); establishes legitimacy of 'log singularity = curvature seed'. D is not even compact (O(1) eigenvalues), matching candidate 1 (no log singularity)."
+}

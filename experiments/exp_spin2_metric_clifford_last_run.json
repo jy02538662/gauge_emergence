@@ -1,0 +1,7 @@
+{
+  "clifford_anticommutator_is_metric": true,
+  "boost_generator_carries_gamma": true,
+  "reads_flat_eta_signature": true,
+  "wall_moved": "tensor bridge = Clifford (solved); curvature (e != delta) still open",
+  "note": "modular flow -> tensor metric via {gamma,gamma}=2 eta. Flat eta only; curvature needs the vielbein e (the wall is now 'how does modular flow read e')."
+}
