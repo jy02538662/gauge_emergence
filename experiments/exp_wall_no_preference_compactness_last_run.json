@@ -1,0 +1,55 @@
+{
+  "question": "do BOTH readings of 'no-preference' give no-compact-D?",
+  "answer": "YES: scale-invariant (power-law 1/i) AND maxent-unconstrained (uniform 1/N) both give divergent Dixmier trace (no compact). Only thermal (exponential e^{-beta i}, maxent + energy constraint) gives compact.",
+  "table": [
+    {
+      "N": 16,
+      "power": 3.1225926632442844,
+      "uniform": 2.0813689810056077,
+      "exp": 1.2193402382802518
+    },
+    {
+      "N": 64,
+      "power": 5.264511229414486,
+      "uniform": 3.700211521787748,
+      "exp": 1.1406646468824295
+    },
+    {
+      "N": 256,
+      "power": 10.89281972546479,
+      "uniform": 8.325475924022433,
+      "exp": 1.1044452633187243
+    },
+    {
+      "N": 1024,
+      "power": 26.10303311760532,
+      "uniform": 21.313218365497427,
+      "exp": 1.0833450503559712
+    },
+    {
+      "N": 4096,
+      "power": 69.34028884384203,
+      "uniform": 59.20338434860397,
+      "exp": 1.0694101900287842
+    },
+    {
+      "N": 16384,
+      "power": 197.82530484258962,
+      "uniform": 173.985456044877,
+      "exp": 1.0594850145991157
+    },
+    {
+      "N": 65536,
+      "power": 593.6507638089387,
+      "uniform": 532.8304591374357,
+      "exp": 1.0520473240086585
+    },
+    {
+      "N": 262144,
+      "power": 1848.9737544361565,
+      "uniform": 1684.0073770269569,
+      "exp": 1.0462638293887523
+    }
+  ],
+  "conclusion": "'no-preference' (both readings) -> no compact D, NECESSARILY. Compact D needs thermal (energy constraint <E><4 = energy preference), which is an EXTRA input not given by 'no-preference'. Round-8 'maxent face' was a concept-swap. P4 is truly the consequence of 'no-preference'."
+}

@@ -1,0 +1,7 @@
+{
+  "ordered_flips": 0,
+  "permuted_flips": 20,
+  "time_order": "intrinsic (modular flow t monotone)",
+  "space_order": "extrinsic (label i hand-picked)",
+  "conclusion": "Difference D needs a 1D SPATIAL order (i adjacent to i+1), which is EXTRINSIC (label hand-picked, permutation breaks it). Self-reflexivity (Hermiticity + discrete spectrum) does NOT fix spatial order. So P3 'reroute' replaces 'Aut->Diff' with 'where does spatial order come from' -- not a wall-break, a wall-swap."
+}

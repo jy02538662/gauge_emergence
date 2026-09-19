@@ -1,0 +1,8 @@
+{
+  "question": "is the modular-flow generator = inner derivation [log rho, .] = P2 asymptotic derivation?",
+  "derivation_leibniz": true,
+  "diagonal_fixed": true,
+  "offdiag_phase": true,
+  "skew_hermitian": true,
+  "conclusion": "modular-flow generator = i[log rho, .] (inner derivation) = P2 delta_N. Time = inner derivation (diagonal fixed, off-diagonal phase = transition). 'modular flow -> local diffeomorphism (outer derivation)' = 'inner -> outer derivation' = P2 asymptotic derivation, already verified ||delta_N|| = log N diverges (crack, drillable)."
+}

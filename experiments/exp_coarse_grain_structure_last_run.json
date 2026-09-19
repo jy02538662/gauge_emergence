@@ -1,0 +1,9 @@
+{
+  "question": "does coarse-graining (discrete->continuous) preserve structure (Leibniz + winding)?",
+  "leibniz_slope": -0.9946146527293249,
+  "leibniz_ok": true,
+  "circulation_2pin": 6.283185307179586,
+  "circulation_std": 6.280369834735101e-16,
+  "winding_preserved": true,
+  "conclusion": "coarse-graining operator (difference->derivative + vortex->flow) preserves two structures: algebraic (Leibniz, O(1/N)->0) and topological (winding, circulation 2πn independent of radius). 'discrete->continuous' unified map preserves algebra + topology."
+}

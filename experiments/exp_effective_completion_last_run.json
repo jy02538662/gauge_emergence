@@ -1,0 +1,8 @@
+{
+  "question": "physical G calibration (dimension) + spin-2 flat layer assembly?",
+  "G_natural": 0.07957747154594767,
+  "G_physical_m05": 0.3183098861837907,
+  "clifford_signature": true,
+  "signature": "diag(-1,1,1,1)",
+  "conclusion": "two attackable next-steps done: (1) physical G calibration = dimensional relation G_phys = G_nat/m^2 (m's physical value = scale-readout, coincidence); (2) spin-2 flat layer = signature eta (Clifford) + helicity ±2 + 1/r. Remaining true wall = spin-2 curvature layer (long-range perp curvature) = discrete->continuous."
+}

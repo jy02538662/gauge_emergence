@@ -1,0 +1,14 @@
+{
+  "question": "is 'derivation + topology' unified as de Rham cohomology (closed but not exact)?",
+  "curl_max": 0.000370103614596648,
+  "closed_form": true,
+  "circulation_2pin": 6.283185307179586,
+  "circulation_values": [
+    6.354324149767866,
+    6.335481560255455,
+    6.337823864441459,
+    6.307004379647025
+  ],
+  "winding_nonzero": true,
+  "conclusion": "grad theta is CLOSED (curl-free, preserves derivation/Leibniz) but has NONZERO circulation (winding, topology). 'closed but not exact' = de Rham cohomology nontrivial = unification of derivation + topology. Correct form is cohomology, not heat kernel (smoothing) nor delta-function correction (divergent)."
+}

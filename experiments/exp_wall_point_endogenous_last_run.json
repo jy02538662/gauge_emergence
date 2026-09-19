@@ -1,0 +1,7 @@
+{
+  "question": "do points arise endogenously as observer-state spectrum (1D manifold)?",
+  "log_coordinate_uniform": true,
+  "smooth_slope": -1.0043831182122658,
+  "hand_label_needs_correction": true,
+  "conclusion": "observer-state rho=C/lambda spectrum (log-coordinate s=log lambda) is an R-endogenous 1D continuous manifold (scale direction = modular flow = time). Points = observer-state spectrum, NOT hand-placed label. Difference on s -> d/ds converges O(1/N). Next: 1D manifold x su(2) -> 3D spatial points."
+}

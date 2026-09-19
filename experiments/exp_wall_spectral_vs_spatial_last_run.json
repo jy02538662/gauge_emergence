@@ -1,0 +1,8 @@
+{
+  "question": "does modular-flow spectral order (=energy) induce spatial order (=position)?",
+  "answer": "NO: spectral order (eigenvalue/E) and spatial order (position) are Fourier-DUAL. position-local state -> energy-nonlocal (all k), energy eigenstate -> spatially-nonlocal (global sine). Modular flow gives time/energy order, not spatial order.",
+  "position_local_energy_nsig": 62,
+  "low_k_nodes": 0,
+  "high_k_nodes": 63,
+  "conclusion": "P3 wall-swap confirmed: spatial order extrinsic, modular flow (time order) does NOT induce spatial order (they are Fourier-dual)."
+}

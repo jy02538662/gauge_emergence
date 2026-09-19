@@ -1,0 +1,39 @@
+{
+  "question": "does D's energy density <E>=4 give beta=0 or beta>0?",
+  "answer": "beta=0 (uniform, no compact D). <E>(beta=0)=4 = uniform average = D's energy density. beta>0 requires <E><4 (energy below uniform average = extra preference), which 'no-preference' does NOT give.",
+  "table": [
+    {
+      "beta": 0.0,
+      "mean_energy": 3.9999999999999996
+    },
+    {
+      "beta": 0.01,
+      "mean_energy": 3.960001999866675
+    },
+    {
+      "beta": 0.03,
+      "mean_energy": 3.8800539676200168
+    },
+    {
+      "beta": 0.1,
+      "mean_energy": 3.601986757625859
+    },
+    {
+      "beta": 0.3,
+      "mean_energy": 2.850948581994288
+    },
+    {
+      "beta": 1.0,
+      "mean_energy": 1.2085696886957356
+    },
+    {
+      "beta": 3.0,
+      "mean_energy": 0.31447918925328483
+    },
+    {
+      "beta": 10.0,
+      "mean_energy": 0.006657135679828385
+    }
+  ],
+  "conclusion": "the hidden assumption of 'maxent face gives compact D' is exposed: maxent (unconstrained) -> uniform beta=0 (no compact); maxent + energy constraint <E> -> thermal beta>0 (compact), but <E>=4 (D's energy density) gives beta=0. Finite observer's energy density = uniform average, does NOT force beta>0. The chain 'finite observer -> compact D' breaks at the last step: compact D needs <E><4 (extra preference)."
+}

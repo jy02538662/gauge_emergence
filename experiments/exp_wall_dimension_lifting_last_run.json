@@ -1,0 +1,13 @@
+{
+  "question": "does '3D' arise endogenously from pi-flux anticommutation (2 directions -> 3rd = product)?",
+  "Tx_involution": 3.463824224941973e-16,
+  "Ty_involution": 0.0,
+  "pi_flux_anticommutator": 2.4492935982947064e-16,
+  "pi_flux_commutator": 4.0,
+  "pauli_squared_I": true,
+  "pauli_comm_12": true,
+  "no_flux_anticommutator": 4.0,
+  "no_flux_commutator": 0.0,
+  "no_flux_pauli_fails": true,
+  "conclusion": "pi-flux anticommutation (T_xT_y=-T_yT_x) + involution (T_x²=T_y²=I) implies sigma_3=-iT_xT_y emerges, {sigma_1,sigma_2,sigma_3} = su(2) generators (3D internal space). '3D' is ENDOGENOUS (from anticommutation + product), no external 3D embedding. 'su(2)->SO(3)' bridge (spin connection omega_mu) = deeper part of paid-bridge-2."
+}

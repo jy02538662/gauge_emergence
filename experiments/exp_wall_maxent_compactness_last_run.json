@@ -1,0 +1,68 @@
+{
+  "question": "does 'no-preference' read as MAXENT give a compact D?",
+  "answer": "YES: maxent (max -sum rho log rho s.t. finite energy constraint) -> Gibbs state rho=e^{-beta E} (exponential spectrum) -> |log rho|^{-1} = 1/(beta i) -> Dixmier trace finite (=1/beta) -> compact D.",
+  "contrast": "scale-invariance reading (power-law rho=1/i) -> log rho logarithmic -> Dixmier divergence -> no compact D (P4 wall).",
+  "table": [
+    {
+      "N": 8,
+      "Trw_powerlaw": 2.6972078032235443,
+      "Trw_exponential": 1.307013007281549
+    },
+    {
+      "N": 16,
+      "Trw_powerlaw": 3.1225926632442844,
+      "Trw_exponential": 1.2193402382802518
+    },
+    {
+      "N": 32,
+      "Trw_powerlaw": 3.9330101539993665,
+      "Trw_exponential": 1.1710341783855904
+    },
+    {
+      "N": 64,
+      "Trw_powerlaw": 5.264511229414486,
+      "Trw_exponential": 1.1406646468824295
+    },
+    {
+      "N": 128,
+      "Trw_powerlaw": 7.4114255550393855,
+      "Trw_exponential": 1.1197677666998127
+    },
+    {
+      "N": 256,
+      "Trw_powerlaw": 10.89281972546479,
+      "Trw_exponential": 1.1044452633187243
+    },
+    {
+      "N": 512,
+      "Trw_powerlaw": 16.605498258319354,
+      "Trw_exponential": 1.092683844503612
+    },
+    {
+      "N": 1024,
+      "Trw_powerlaw": 26.10303311760532,
+      "Trw_exponential": 1.0833450503559712
+    },
+    {
+      "N": 4096,
+      "Trw_powerlaw": 69.34028884384203,
+      "Trw_exponential": 1.0694101900287842
+    },
+    {
+      "N": 16384,
+      "Trw_powerlaw": 197.82530484258962,
+      "Trw_exponential": 1.0594850145991157
+    },
+    {
+      "N": 65536,
+      "Trw_powerlaw": 593.6507638089387,
+      "Trw_exponential": 1.0520473240086585
+    },
+    {
+      "N": 262144,
+      "Trw_powerlaw": 1848.9737544361565,
+      "Trw_exponential": 1.0462638293887523
+    }
+  ],
+  "conclusion": "finite observer gives TRUNCATION (1/N), not exponential decay; the characteristic scale (temperature) comes from MAXENT + finite constraint. So reading 'no-preference' as MAXENT (face 2) gives an INTRINSIC characteristic scale and a compact D -- downgrades P4 from axiom-conflict to axiom-precision."
+}

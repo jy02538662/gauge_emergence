@@ -1,0 +1,10 @@
+{
+  "question": "is Aut(MASA) = measure-preserving (permutation) or diffeomorphism?",
+  "answer": "Aut(MASA) = permutation group S_N (monomial, DISCRETE measure-preserving), NOT Diff(M) (continuous group). Rotation (finite-dim slice of Diff) is NOT an automorphism of D_N.",
+  "D_N_is_MASA": true,
+  "C_N_is_MASA": true,
+  "D_N_intersect_C_N": "cI (scalar only)",
+  "permutation_is_automorphism": true,
+  "rotation_not_automorphism": true,
+  "conclusion": "P1 first half (noncommutative -> commutative = E) REACHABLE; P1 second half = P3 (commutative MASA = measure -> manifold = diffeomorphism) NOT reachable. Measure (permutation, discrete) != differential structure (Diff, continuous)."
+}

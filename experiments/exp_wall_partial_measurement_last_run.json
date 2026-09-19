@@ -1,0 +1,43 @@
+{
+  "question": "does finite detection energy (partial measurement of K levels) give compact D?",
+  "answer": "YES: K small (finite detection) -> finite Dixmier trace (compact); K=N (full detection) -> divergent (no compact).",
+  "table": [
+    {
+      "K": 1,
+      "dixmier": Infinity
+    },
+    {
+      "K": 2,
+      "dixmier": 4.1627379620112155
+    },
+    {
+      "K": 4,
+      "dixmier": 2.0813689810056077
+    },
+    {
+      "K": 8,
+      "dixmier": 1.8484511229667802
+    },
+    {
+      "K": 16,
+      "dixmier": 2.0742311074681923
+    },
+    {
+      "K": 32,
+      "dixmier": 2.639165396283877
+    },
+    {
+      "K": 64,
+      "dixmier": 3.5659571311234246
+    },
+    {
+      "K": 128,
+      "dixmier": 5.000857271771237
+    },
+    {
+      "K": 256,
+      "dixmier": 7.02491252504677
+    }
+  ],
+  "conclusion": "finite detection energy (partial measurement of K levels) gives compact D. But whether K is intrinsic (from observer's finite information) or hand-placed is a CONCEPT question about the definition of 'observation'."
+}

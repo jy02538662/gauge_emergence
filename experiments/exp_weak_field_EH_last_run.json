@@ -1,0 +1,8 @@
+{
+  "question": "assemble weak-field EH (Poisson eq) and calibrate G?",
+  "laplacian_1overr_harmonic": true,
+  "max_laplacian": 0.004960276140018927,
+  "flux": -12.566370614359172,
+  "G_natural_units": 0.07957747154594767,
+  "conclusion": "weak-field EH (Poisson eq) assembled: geometry 1/r (observer-state path, uniqueness solved) + matter defect rho (bond order/defect density) + equation grad^2Φ=4πGρ (G calibrated from 1/(4πr) coefficient). Effective theory CLOSED in natural units (G=1/4π); physical G needs mass calibration (= scale-readout wall, NOT the discrete->continuous wall)."
+}

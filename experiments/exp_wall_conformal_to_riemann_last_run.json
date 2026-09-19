@@ -1,0 +1,8 @@
+{
+  "question": "does conformal + angular deficit -> Riemannian (scalar curvature source)?",
+  "inversion_R_flat": true,
+  "angular_deficit_v3": 1.5707963267948966,
+  "angular_deficit_v4": 0.0,
+  "angular_deficit_v5": -1.5707963267948966,
+  "conclusion": "conformal flat (inversion R=0) + angular deficit (defect delta!=0) = Riemannian curved (R!=0). 'conformal -> Riemannian' = add angular deficit (defect) = matter source T_mu_nu. Scalar curvature source = angular deficit delta (Q1 solved), but delta = defect = matter source = bridge B wall."
+}

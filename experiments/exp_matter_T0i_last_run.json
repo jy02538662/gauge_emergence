@@ -1,0 +1,10 @@
+{
+  "question": "is T_0i = momentum density zero in equilibrium (uniform + defect)?",
+  "momentum_hermitian": true,
+  "uniform_expectation": 0.0,
+  "defect_expectation_V2": 0.0,
+  "winding_1_expectation": 1.9876883405951384,
+  "winding_2_expectation": 3.9264331974854296,
+  "quantized": true,
+  "conclusion": "T_0i = momentum density = net flow, ZERO in equilibrium (uniform + defect), nonzero only for TOPOLOGICAL defect (vortex/winding), quantized (Thouless pump). T_0i gap = needs topological matter source (vortex), not ordinary defect. T_0i perpendicular to dynamics verified."
+}

@@ -1,0 +1,7 @@
+{
+  "differential_D_gives_euclidean": true,
+  "adjacency_D_gives_sqrt_graph_distance": true,
+  "d02_diff": 2,
+  "d02_adj": "sqrt(2)",
+  "conclusion": "Spectral distance d(x,y)=sup|f(x)-f(y)| s.t. ||[D,f]||<=1 gives EUCLIDEAN |x-y| when D = DIFFERENCE (differential) operator, but sqrt(graph distance) when D = adjacency (topological). Metric comes from D's spectrum (P3 reroute: use difference-D, not Aut)."
+}

@@ -1,0 +1,19 @@
+{
+  "question": "can scale-invariance (long-range) and maxent (compact D) coexist?",
+  "answer": "YES via scale-dependent observer state rho=(1/lambda)e^{-lambda/lambda_c}: low-energy power-law gives G(t)~1/t (long-range), high-energy exponential cutoff gives finite Dixmier trace (compact D).",
+  "longrange_slope": {
+    "inf": 0.8014764423430816,
+    "100.0": 0.8002787062223151,
+    "10.0": 0.7749396011433061,
+    "3.0": 0.7376614212081193,
+    "1.0": 0.7094675277750614
+  },
+  "dixmier_trace": {
+    "inf": 1848.9737544361565,
+    "100.0": 56.7919777242631,
+    "10.0": 7.994614783532577,
+    "3.0": 2.7392439260866612,
+    "1.0": 0.9859262873155127
+  },
+  "conclusion": "path A (hierarchical) viable: low-energy scale-invariance + high-energy maxent coexist, no need to abandon either side."
+}

@@ -1,0 +1,8 @@
+{
+  "question": "does Fourier duality preserve dimension? does '3D' come from spectral dimension?",
+  "modular_freq_rank": 2,
+  "modular_freq_expected_rank": 2,
+  "spectral_dim_1d": 1.1006431688642888,
+  "spectral_dim_3d": 3.6433340064326973,
+  "conclusion": "modular (time) frequencies theta_ij = s_j - s_i determined by 1D s=log lambda (low rank). Fourier duality preserves dimension (1D time <-> 1D frequency). 3D comes from spectral dimension d_s=3 (eigenvalue-density power law) = 'dimension lifting' (paid-bridge-2), NOT from Fourier duality."
+}

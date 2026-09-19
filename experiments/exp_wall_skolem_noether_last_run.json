@@ -1,0 +1,7 @@
+{
+  "question": "finite-dim Out trivial (Skolem-Noether)? transpose automorphism or anti?",
+  "transpose_is_antiautomorphism": true,
+  "transpose_not_automorphism": true,
+  "diagonal_transpose_identity": true,
+  "conclusion": "Aut(M_n)=Inn(M_n), Out trivial. Transpose is anti-automorphism on noncommutative M_n, becomes identity (automorphism) after abelianization. Diff(M) is automorphism of abelianized C^inf(M), not of noncommutative R. Outer automorphisms / diffeomorphisms only emerge at n->infinity (discrete -> continuous)."
+}

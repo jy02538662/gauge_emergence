@@ -1,0 +1,84 @@
+{
+  "wall": "no-compact-D (has crack), NOT all-derivations-inner (theorem, no crack)",
+  "derivation_norm_grows_as": "log N",
+  "table": [
+    {
+      "N": 2,
+      "norm_logrho": 0.6931471805599453,
+      "norm_delta": 0.6931471805599453
+    },
+    {
+      "N": 4,
+      "norm_logrho": 1.3862943611198906,
+      "norm_delta": 1.3862943611198906
+    },
+    {
+      "N": 8,
+      "norm_logrho": 2.0794415416798357,
+      "norm_delta": 2.0794415416798357
+    },
+    {
+      "N": 16,
+      "norm_logrho": 2.772588722239781,
+      "norm_delta": 2.772588722239781
+    },
+    {
+      "N": 32,
+      "norm_logrho": 3.4657359027997265,
+      "norm_delta": 3.4657359027997265
+    },
+    {
+      "N": 64,
+      "norm_logrho": 4.1588830833596715,
+      "norm_delta": 4.1588830833596715
+    },
+    {
+      "N": 128,
+      "norm_logrho": 4.852030263919617,
+      "norm_delta": 4.852030263919617
+    },
+    {
+      "N": 256,
+      "norm_logrho": 5.545177444479562,
+      "norm_delta": 5.545177444479562
+    },
+    {
+      "N": 512,
+      "norm_logrho": 6.238324625039508,
+      "norm_delta": 6.238324625039508
+    },
+    {
+      "N": 1024,
+      "norm_logrho": 6.931471805599453,
+      "norm_delta": 6.931471805599453
+    },
+    {
+      "N": 4096,
+      "norm_logrho": 8.317766166719343,
+      "norm_delta": 8.317766166719343
+    },
+    {
+      "N": 16384,
+      "norm_logrho": 9.704060527839234,
+      "norm_delta": 9.704060527839234
+    },
+    {
+      "N": 65536,
+      "norm_logrho": 11.090354888959125,
+      "norm_delta": 11.090354888959125
+    },
+    {
+      "N": 262144,
+      "norm_logrho": 12.476649250079015,
+      "norm_delta": 12.476649250079015
+    },
+    {
+      "N": 1048576,
+      "norm_logrho": 13.862943611198906,
+      "norm_delta": 13.862943611198906
+    }
+  ],
+  "finite_dim_inner": true,
+  "leibniz_residual": 3.552713678800501e-15,
+  "conclusion": "delta_N = [log rho_N, .] is INNER for every finite N (Leibniz exact, generator h=log rho_N), but ||h|| = ||delta_N|| = log N -> infinity, so as N->inf delta_N becomes an UNBOUNDED derivation where Sakai-Kadison (bounded) no longer applies. Outer derivations emerge ONLY in the limit."
+}

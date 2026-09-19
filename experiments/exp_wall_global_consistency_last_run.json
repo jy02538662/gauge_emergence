@@ -1,0 +1,8 @@
+{
+  "question": "do multiple observers' S^3 glue into a global manifold (local diffeo)?",
+  "transition_is_inversion": true,
+  "JTJ_conformal": true,
+  "JTJ_isometric": false,
+  "conformal_factor": 196.0,
+  "conclusion": "multiple observers glue into CONFORMAL manifold (inversion transition, angle-preserving), NOT Riemannian manifold (isometry, length-preserving). Bottleneck = conformal vs Riemannian = missing scalar curvature = matter source T_mu_nu (bridge B). This is the precise bottleneck of step 5: glues (conformally) but not into the Riemannian manifold GR needs."
+}

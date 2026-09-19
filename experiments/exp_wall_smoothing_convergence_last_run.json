@@ -1,0 +1,15 @@
+{
+  "question": "does discrete difference converge to continuous derivative (N-smooth -> C^inf)?",
+  "spectral_slopes": {
+    "1": -0.9989789684424977,
+    "2": -0.995911166083741,
+    "3": -0.990782499030417
+  },
+  "metric_convergence_exact": true,
+  "smooth_slopes": {
+    "1": -0.9969345408252707,
+    "2": -0.9938476232952393,
+    "3": -0.9938547752847015
+  },
+  "conclusion": "difference -> derivative converges at O(1/N) (forward difference, first order) in all three layers (spectrum, metric, smoothness). The 'textbook half' of smoothing has NO obstacle. The wall is in 'points from R endogenously' (step 3: grid label -> observer-state spectrum)."
+}

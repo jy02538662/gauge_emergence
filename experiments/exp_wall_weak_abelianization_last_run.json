@@ -1,0 +1,37 @@
+{
+  "question": "does ||[a_n,b_n]|| -> 0 (weak abelianization)?",
+  "answer": "YES: ||[a_n,b_n]|| = 2/n -> 0 (power law alpha=1), averaged operators a_n=(1/n)sum sigma_x^(k), b_n=(1/n)sum sigma_y^(k)",
+  "table": [
+    {
+      "n": 2,
+      "dim": 4,
+      "comm_norm": 1.0
+    },
+    {
+      "n": 4,
+      "dim": 16,
+      "comm_norm": 0.5
+    },
+    {
+      "n": 6,
+      "dim": 64,
+      "comm_norm": 0.33333333333333337
+    },
+    {
+      "n": 8,
+      "dim": 256,
+      "comm_norm": 0.25
+    },
+    {
+      "n": 10,
+      "dim": 1024,
+      "comm_norm": 0.20000000000000007
+    },
+    {
+      "n": 12,
+      "dim": 4096,
+      "comm_norm": 0.1666666666666667
+    }
+  ],
+  "honest_boundary": "averaging (1/n)sum is hand-placed, corresponds to conditional expectation E (paper #17), not intrinsic to self-reflexivity. Weak abelianization HOLDS, but 'averaging = conditional expectation' needs concept clarification."
+}

@@ -1,0 +1,8 @@
+{
+  "question": "does compactification (radial cutoff x S^2) give compact S^3 with compact D?",
+  "S3_low_gap": 3.0,
+  "S3_spectrum_discrete": true,
+  "R3_gap_slope": -2.0,
+  "R3_gap_L64": 0.00722871416095412,
+  "conclusion": "compactification = radial cutoff (lambda_c) -> compact S^3 -> discrete spectrum (compact D). This is the 3D version of path-A: lambda_c finite gives compact D (discrete spectrum), lambda_c->inf gives no compact D (continuous spectrum, P4). Remaining: global consistency (step 5, local diffeomorphism = true wall)."
+}

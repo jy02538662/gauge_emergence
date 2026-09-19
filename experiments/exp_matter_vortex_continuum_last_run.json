@@ -1,0 +1,6 @@
+{
+  "question": "does vortex far-field ∝ 1/r (continuous flow field)?",
+  "far_field_slope": -0.9999999999999994,
+  "far_field_ok": true,
+  "conclusion": "vortex far-field = |grad theta| = n/r is a CONTINUOUS flow field (gradient of continuous phase field), the continuous seed of 'discrete winding -> continuous flow'. Vortex 1/r and observer-state 1/r are the SAME power law - topology (winding) <-> scale invariance (no-preference) converge. Remaining: core (discrete) -> far-field (continuous) splicing = discrete->continuous wall."
+}

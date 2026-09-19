@@ -1,0 +1,8 @@
+{
+  "theorem": "M_n(C) (n>=2) simple => no nonzero character (no multiplicative hom to C)",
+  "idempotent_solutions": "[{x11: 0, x22: 0}, {x11: 0, x22: 1}, {x11: 1, x22: 0}, {x11: 1, x22: 1}]",
+  "system_no_solution": true,
+  "contradiction": "x_ii equal + sum=1 => x_ii=1/2, but idempotent => x_ii in {0,1}: contradiction",
+  "abelian_has_character": true,
+  "conclusion": "M_n has NO character (P1: no point). Diagonal (abelian/MASA) HAS character = evaluation (point). 'noncommutative -> commutative' is the wall, and the finite-dim version is exact here."
+}

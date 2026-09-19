@@ -1,0 +1,31 @@
+{
+  "question": "does winding number = zero modes on the lattice (discrete index theorem)?",
+  "results": {
+    "-1.0": {
+      "winding": 0,
+      "min_singular": 1.0025639107514555,
+      "zero_mode": false
+    },
+    "0.5": {
+      "winding": 1,
+      "min_singular": 6.505213034913026e-19,
+      "zero_mode": true
+    },
+    "1.0": {
+      "winding": 1,
+      "min_singular": 0.0,
+      "zero_mode": true
+    },
+    "1.5": {
+      "winding": 1,
+      "min_singular": 6.505213034913026e-19,
+      "zero_mode": true
+    },
+    "3.0": {
+      "winding": 0,
+      "min_singular": 1.0025639107514555,
+      "zero_mode": false
+    }
+  },
+  "conclusion": "winding (topological index) = zero modes (analytical index) holds directly on the discrete lattice, WITHOUT taking the continuum limit. Topological charge (winding) is a PURE DISCRETE invariant - it does NOT need to break the 'discrete->continuous' wall. The two halves of the wall are ASYMMETRIC: topology (discrete, complete) vs smoothness (needs continuum limit)."
+}

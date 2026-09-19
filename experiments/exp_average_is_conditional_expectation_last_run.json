@@ -1,0 +1,25 @@
+{
+  "question": "is 'averaging' = conditional expectation E (observation)?",
+  "four_props_all_pass": "see ce_table (expect all ~0 / pos>=0)",
+  "image_commutativity": {
+    "M1_N8": 11.086818973599511,
+    "M2_N8": 35.643251986979436,
+    "M3_N8": 0.0,
+    "M4_N8": 1.2195093698105904e-15,
+    "M1_N16": 46.58053757448652,
+    "M2_N16": 94.32225007583696,
+    "M3_N16": 0.0,
+    "M4_N16": 2.0911298235000186e-15,
+    "M1_N32": 136.90157058536397,
+    "M2_N32": 260.4414073984322,
+    "M3_N32": 0.0,
+    "M4_N32": 3.999352961919176e-15,
+    "M1_N64": 362.5237150752753,
+    "M2_N64": 748.8259825740626,
+    "M3_N64": 0.0,
+    "M4_N64": 1.023379773828888e-14
+  },
+  "M3_vs_M4_diff": 10.389384231668728,
+  "rho_not_translation_invariant": true,
+  "conclusion_hint": "M3 image = diagonal (abelian, rho spectrum distinct), M4 image = circulant (abelian). BOTH abelian but DIFFERENT. M3 != M4 since rho = diag(1/i) not translation-invariant."
+}

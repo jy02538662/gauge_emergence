@@ -1,0 +1,16 @@
+{
+  "question": "does 3D difference Dirac converge to continuous Dirac (O(1/N))?",
+  "spectral_slopes": {
+    "(1, 1, 1)": -0.9914012800624284,
+    "(1, 2, 3)": -0.9200466713793037,
+    "(2, 3, 5)": -0.7585088096304634
+  },
+  "modulus_slopes": {
+    "(1, 1, 1)": -1.9961360158861954,
+    "(1, 2, 3)": -1.961125907870143,
+    "(2, 3, 5)": -1.8830333642941985
+  },
+  "gradient_convergence": "O(1/N) per direction (x,y,z)",
+  "su2_generators_commute": true,
+  "conclusion": "3D difference Dirac -> continuous Dirac converges at O(1/N) (eigenvalue) / O(1/N^2) (modulus), same as 1D, no hidden obstacle. Textbook half now filled 1D->3D. 3 directions = su(2) generators (18th round). Wall remains in 'points from R endogenously' (step 3)."
+}

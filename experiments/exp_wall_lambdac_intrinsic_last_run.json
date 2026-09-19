@@ -1,0 +1,38 @@
+{
+  "question": "is lambda_c (crossover scale) intrinsic to finite observer D?",
+  "answer": "YES (heuristic): lambda_c ~ 1/beta ~ <E> = average spectral energy of D, which is O(1) intrinsic (Tr(D^2)/N = degree = 4, independent of N).",
+  "table": [
+    {
+      "L": 4,
+      "N": 16,
+      "TrD2_over_N": 4.0,
+      "avg_abs": 1.7071067811865475
+    },
+    {
+      "L": 8,
+      "N": 64,
+      "TrD2_over_N": 4.0,
+      "avg_abs": 1.8927025215857056
+    },
+    {
+      "L": 16,
+      "N": 256,
+      "TrD2_over_N": 4.0,
+      "avg_abs": 1.9133483201228825
+    },
+    {
+      "L": 32,
+      "N": 1024,
+      "TrD2_over_N": 4.0,
+      "avg_abs": 1.9158309974794294
+    },
+    {
+      "L": 64,
+      "N": 4096,
+      "TrD2_over_N": 4.0,
+      "avg_abs": 1.9161388964806483
+    }
+  ],
+  "conclusion": "lambda_c ~ <E> = O(1) intrinsic (D's degree / average spectral energy). Finite observer (finite-dim D) + maxent -> temperature beta ~ 1/<E> -> lambda_c ~ <E>, NOT hand-placed.",
+  "honest_boundary": "beta ~ 1/<E> is high-temperature approximation; energy definition E=|lambda| or lambda^2 is a choice; 'maxent' reading is itself a concept choice (8th round). But lambda_c ~ O(1) intrinsic is robust."
+}

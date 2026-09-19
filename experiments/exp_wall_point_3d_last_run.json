@@ -1,0 +1,9 @@
+{
+  "question": "does 1D (observer spectrum) x su(2) -> 3D spatial points?",
+  "hopf_on_S2_mean_norm": 1.0,
+  "hopf_on_S2_std": 1.4745500568022144e-16,
+  "angular_S2_dim": 2,
+  "radial_dim": 1,
+  "total_dim": 3,
+  "conclusion": "3D spatial point = radial (observer-state spectrum lambda, 1D) x angular (SU(2)/U(1) = S^2, 2D) = spherical coords (r,theta,phi) = 3D. Radial = observer spectrum (endogenous), angular = broken S^2 (endogenous) => 3D points R-endogenous. Remaining: compactification (step 4) + global consistency (local diffeo, true wall)."
+}
