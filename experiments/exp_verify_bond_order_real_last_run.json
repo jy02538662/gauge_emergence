@@ -1,0 +1,17 @@
+{
+  "N": 120,
+  "V": 0.8,
+  "x0": 60,
+  "uniform_T_std": 1.8899624520582924e-16,
+  "defect_T_std": 0.004970448653241197,
+  "defect_T_near": {
+    "-3": -0.30793100533747925,
+    "-2": -0.33315806851284047,
+    "-1": -0.29027921431405135,
+    "0": -0.29027921431405135,
+    "1": -0.3331580685128404,
+    "2": -0.3079310053374793,
+    "3": -0.3263294624105065
+  },
+  "conclusion": "bond order T_i (off-diagonal) is real (Hellmann-Feynman), position-dependent via defect (matter). This is the off-diagonal coupling (Weyl ingredient), not hand-picked. But Weyl needs 4D (3+1) + continuum (discrete T_i -> continuous T_mu nu), two walls."
+}

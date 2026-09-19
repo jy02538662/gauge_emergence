@@ -1,0 +1,6 @@
+{
+  "weyl_diag": 0.0,
+  "weyl_offdiag": 0.9417511983494558,
+  "offdiag_opens_weyl": true,
+  "note": "off-diagonal bond order (shear) -> Weyl != 0, unlike diagonal tau (scalar) -> Weyl=0. But T(q) still hand-picked; next: T_ij = <c_i^dag c_j> real."
+}

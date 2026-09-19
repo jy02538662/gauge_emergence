@@ -1,0 +1,29 @@
+{
+  "N": 200,
+  "m": 5,
+  "x0": 100,
+  "V": 0.8,
+  "uniform_mean_std": 0.0,
+  "uniform_width_std": 2.220446049250313e-16,
+  "defect_mean_std": 0.01658038271298618,
+  "defect_width_std": 0.004439342027677868,
+  "defect_mean_near": {
+    "-3": 0.0727272727272728,
+    "-2": 0.07272727272727297,
+    "-1": 0.07272727272727275,
+    "0": 0.0727272727272727,
+    "1": 0.07272727272727265,
+    "2": 0.07272727272727274,
+    "3": 0.07272727272727285
+  },
+  "defect_width_near": {
+    "-3": 1.3678722090039297,
+    "-2": 1.3678722090039295,
+    "-1": 1.3678722090039295,
+    "0": 1.3678722090039293,
+    "1": 1.3678722090039293,
+    "2": 1.3678722090039293,
+    "3": 1.3678722090039295
+  },
+  "conclusion": "relation cut p_x D p_x gives a computable position-dependent SCALAR spectrum lambda(x) (flat for uniform, varying near defect).  The scalar->tensor step is the same wall as measure->differential-structure."
+}

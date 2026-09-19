@@ -1,0 +1,8 @@
+{
+  "gauss_bonnet_chi": 1.9999999999999893,
+  "noncommutative_torus_diff": 1.376063405062055e-15,
+  "noncommutative_torus_comm": 1.7320508075688776,
+  "M2_derivation_dim": 3,
+  "M2_leibniz_rank": 13,
+  "note": "three previously hand-derived/cited steps now program-verified. Remaining non-verifiable: assumptions (matter picks 4D) and identifications (state-space = physical space)."
+}

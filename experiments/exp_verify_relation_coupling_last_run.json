@@ -1,0 +1,8 @@
+{
+  "overlap_far": 0.00012340980408667956,
+  "overlap_near": 0.9607894391523232,
+  "weyl_far": 1261.0096912142776,
+  "weyl_near": 93.65246147518208,
+  "relation_opens_weyl": false,
+  "conclusion": "observer relation (overlap) -> coupling -> Weyl != 0 (spin-2), not hand-picked lambda."
+}

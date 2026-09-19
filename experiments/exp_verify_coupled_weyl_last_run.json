@@ -1,0 +1,6 @@
+{
+  "weyl_norm_lambda0": 0.0,
+  "weyl_norm_lambda1": 0.3079648395902176,
+  "coupling_opens_weyl": true,
+  "conclusion": "lambda (observer coupling) opens Weyl != 0 (spin-2). Next: derive lambda from theory (observer relation), not hand-picked."
+}

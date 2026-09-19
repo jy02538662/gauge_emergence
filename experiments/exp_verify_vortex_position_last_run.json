@@ -1,0 +1,7 @@
+{
+  "bures_metric_signature": "positive-definite (Riemannian, not Lorentzian)",
+  "minkowski_signature": "-+++ (one negative)",
+  "vortex_projection_discrete": true,
+  "rho_v_x_loop": "rho_v(x) presupposes x (position) -> circular definition",
+  "conclusion": "the 'definition' route is not self-consistent: it either circularly presupposes position, or needs 'state-space = physical space' identification (Connes distance is a state-space metric)."
+}

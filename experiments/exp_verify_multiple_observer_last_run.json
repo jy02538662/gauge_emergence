@@ -1,0 +1,6 @@
+{
+  "transition_function": "inversion y -> y/|y|^2",
+  "JtJ_residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])",
+  "conformal_factor": "1/r^2",
+  "conclusion": "two-observer transition = inversion (global conformal, not position-dependent curvature); gives conformally-flat (constant curvature), not Riemann curvature. Position-dependent curvature needs a field of transitions (many observers) -> conformal connection (Weyl), still not Riemann. 'observer = projection' still needs state=position identification."
+}

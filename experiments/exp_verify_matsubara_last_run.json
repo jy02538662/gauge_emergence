@@ -1,0 +1,18 @@
+{
+  "N": 60,
+  "V": 0.8,
+  "beta": 10.0,
+  "tau_values": [
+    0.0,
+    2.0,
+    5.0,
+    8.0
+  ],
+  "G_diag_mean_by_tau": {
+    "0.0": 0.49796797155858546,
+    "2.0": 11.013445432537546,
+    "5.0": 2714.838569018523,
+    "8.0": 848229.9041859717
+  },
+  "conclusion": "Matsubara G(i,j;tau) is 4D (3 spatial + 1 imaginary time), but tau depends on temperature beta (hand-picked). The clean 4D should be time = directed distinction (already derived), not temperature (hand-picked thermal state)."
+}

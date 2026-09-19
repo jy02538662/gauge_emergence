@@ -1,0 +1,12 @@
+{
+  "N": 64,
+  "commutator_real_max": 1.2490009027033011e-15,
+  "commutator_imag_range": [
+    -1.0000000000000044,
+    1.0000000000000044
+  ],
+  "n_eigenvalues": 64,
+  "gap_min": 0.0,
+  "gap_max": 0.9999999999999852,
+  "conclusion": "[T,Gamma] eigenvalues: pure imaginary (anti-Hermitian), discrete (N points), gapped. Finite-dim -> discrete spectrum -> no continuous differential structure (needs infinite-dim continuous spectrum). Self-construction does NOT bypass the wall: still finite discrete, not continuous."
+}

@@ -1,0 +1,8 @@
+{
+  "part1_norm_ok": true,
+  "part1_connes_distance": 1,
+  "part2_tau_distance": "2/N (constant)",
+  "part3_d01": 1,
+  "part3_d02": "sqrt(2)",
+  "conclusion": "Connes distance gives a topology FINER than tau-topology (distinguishes position and adjacent-vs-far), so it qualifies as the topology for etale; BUT it is the STATE-SPACE topology, and identifying states with vortices/links is the old wall (state = position)."
+}

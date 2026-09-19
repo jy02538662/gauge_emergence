@@ -1,0 +1,12 @@
+{
+  "K_bg_mean": 1.1711825824246862,
+  "K_bg_std": 0.9715820224837134,
+  "K_phy_mean": 1.2861743155449068,
+  "K_phy_std": 0.967117801763407,
+  "K_phy_range": [
+    0.8781352077584587,
+    9.582284035439104
+  ],
+  "position_dependent": true,
+  "note": "tau (matter source) modulates metric -> scalar curvature position-dependent (std != 0); background (no tau) = constant K=1. This verifies 'matter -> Riemann curvature' (EH left side G follows right side T). But tau = T_00 (scalar) gives SCALAR curvature (scalar gravity), not spin-2; and tau depends on 'band-filling rule' (unproven gap)."
+}

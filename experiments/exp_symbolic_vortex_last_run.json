@@ -1,0 +1,11 @@
+{
+  "toeplitz_match": {
+    "2": true,
+    "3": true,
+    "4": true
+  },
+  "far_field_match": true,
+  "winding_number": "n",
+  "leibniz_ok": true,
+  "wall_note": "scalar->tensor needs OUTER derivations; II_1 has none (Sakai-Kadison), and finite M_n has none either (HH^1=0). The wall is the limit finite->infinite, which finite numeric cannot reach."
+}

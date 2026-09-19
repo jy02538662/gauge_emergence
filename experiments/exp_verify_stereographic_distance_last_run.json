@@ -1,0 +1,27 @@
+{
+  "cos_d_symbolic": "(r*s - r + s + 1)*(r*s + r - s + 1)/((r**2 + 1)*(s**2 + 1))",
+  "geodesic_distance_rows": [
+    {
+      "R": 0.0,
+      "d": 0.9272952180016123
+    },
+    {
+      "R": 0.5,
+      "d": 0.6435011087932843
+    },
+    {
+      "R": 1.0,
+      "d": 0.3947911196997614
+    },
+    {
+      "R": 2.0,
+      "d": 0.16628246377688263
+    },
+    {
+      "R": 5.0,
+      "d": 0.035084120114803774
+    }
+  ],
+  "position_dependent": true,
+  "note": "geodesic distance IS position-dependent under stereographic projection (same Euclidean distance, different position -> different geodesic distance), BUT this is conformal-factor position-dependence, NOT scalar-curvature position-dependence (R=6 constant)."
+}

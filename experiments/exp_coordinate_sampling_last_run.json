@@ -1,0 +1,12 @@
+{
+  "N": 100,
+  "sigma": 3.0,
+  "G_mean": 0.05536294061049934,
+  "G_std": 7.683760708364888e-07,
+  "G_range": [
+    0.05535883203597347,
+    0.05536310007747369
+  ],
+  "parameter_is_physical": true,
+  "note": "1D sampling: G(X) is function of physical X (parameter=physical, wall 3). But uniform ring -> G translation-invariant; need defect (matter) for position-dependence, and 4D for Weyl/TT."
+}
