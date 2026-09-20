@@ -1,0 +1,25 @@
+{
+  "question": "does the physical source T_μν = (2/√-g) δS_m/δg^μν (generally-covariant matter field) conserve automatically (Noether), confirming step-6's 'defect divergence is hand-put artifact'?",
+  "answer": "YES",
+  "T_munu": "T_μν = ∂_μφ∂_νφ - 1/2 g_μν(∂φ)² - 1/2 g_μν m²φ² (general-covariant scalar field)",
+  "conservation": "∂^μ T_μν = (□φ - m²φ)∂_νφ = 0 by EOM □φ=m²φ (Noether, symbolically verified)",
+  "hand_put_vs_physical": "hand-put defect V (non-covariant) -> divergence ≠ 0 (artifact); physical source (covariant) -> divergence = 0 (conserved)",
+  "sympy": {
+    "T00": "m**2*phi(x0, x1, x2, x3)**2/2 + Derivative(phi(x0, x1, x2, x3), x0)**2/2 + Derivative(phi(x0, x1, x2, x3), x1)**2/2 + Derivative(phi(x0, x1, x2, x3), x2)**2/2 + Derivative(phi(x0, x1, x2, x3), x3)**2/2",
+    "T01": "Derivative(phi(x0, x1, x2, x3), x0)*Derivative(phi(x0, x1, x2, x3), x1)",
+    "T11": "-m**2*phi(x0, x1, x2, x3)**2/2 + Derivative(phi(x0, x1, x2, x3), x0)**2/2 + Derivative(phi(x0, x1, x2, x3), x1)**2/2 - Derivative(phi(x0, x1, x2, x3), x2)**2/2 - Derivative(phi(x0, x1, x2, x3), x3)**2/2",
+    "div_nu": [
+      "(-m**2*phi(x0, x1, x2, x3) - Derivative(phi(x0, x1, x2, x3), (x0, 2)) + Derivative(phi(x0, x1, x2, x3), (x1, 2)) + Derivative(phi(x0, x1, x2, x3), (x2, 2)) + Derivative(phi(x0, x1, x2, x3), (x3, 2)))*Derivative(phi(x0, x1, x2, x3), x0)",
+      "(-m**2*phi(x0, x1, x2, x3) - Derivative(phi(x0, x1, x2, x3), (x0, 2)) + Derivative(phi(x0, x1, x2, x3), (x1, 2)) + Derivative(phi(x0, x1, x2, x3), (x2, 2)) + Derivative(phi(x0, x1, x2, x3), (x3, 2)))*Derivative(phi(x0, x1, x2, x3), x1)",
+      "(-m**2*phi(x0, x1, x2, x3) - Derivative(phi(x0, x1, x2, x3), (x0, 2)) + Derivative(phi(x0, x1, x2, x3), (x1, 2)) + Derivative(phi(x0, x1, x2, x3), (x2, 2)) + Derivative(phi(x0, x1, x2, x3), (x3, 2)))*Derivative(phi(x0, x1, x2, x3), x2)",
+      "(-m**2*phi(x0, x1, x2, x3) - Derivative(phi(x0, x1, x2, x3), (x0, 2)) + Derivative(phi(x0, x1, x2, x3), (x1, 2)) + Derivative(phi(x0, x1, x2, x3), (x2, 2)) + Derivative(phi(x0, x1, x2, x3), (x3, 2)))*Derivative(phi(x0, x1, x2, x3), x3)"
+    ],
+    "conservation_all_zero": true
+  },
+  "precision_boundaries": [
+    "conservation verified on flat background η (∂^μ not ∇^μ); covariance is in T_μν's definition (covariant variation of S_m); curved ∇^μ T_μν=0 is Bianchi self-consistency",
+    "scalar field is the simplest matter field with closed-form T_μν; fermion/gauge T_μν differ in structure but Noether mechanism is the same",
+    "symbolic (sympy) verification, not new numerics — makes step-6's 'hand-put artifact' explicit"
+  ],
+  "conclusion": "Physical source T_μν (generally-covariant matter) conserves automatically (Noether). Step 5's defect divergence ≠ 0 is a hand-put artifact, not a conservation violation."
+}

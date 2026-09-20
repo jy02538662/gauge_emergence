@@ -1,0 +1,22 @@
+{
+  "question": "does the physics-to-noncommutative-geometry translation hold, with bond order K=δE/δD corresponding to 1-form [D,a]?",
+  "answer": "YES (symbolic verification of the hardest pair)",
+  "hellmann_feynman": "bond order K = δE/δD = D-variation (dimer: K=-1)",
+  "one_form": "[D, a] off-diagonal = difference a_{i+1}-a_i (D-commutator generates 1-form)",
+  "sympy": {
+    "hellmann_feynman": true,
+    "one_form": true
+  },
+  "correspondence_table": [
+    "long-range 1/r <-> D_R propagator massless mode",
+    "angle defect δ <-> heat-kernel a_2 coefficient = scalar curvature",
+    "bond order K <-> noncommutative 1-form Ω¹ = [D,a]",
+    "vortex n <-> spectral flow = index",
+    "conformal->Riemann <-> spectral triple deformation (add angle defect)"
+  ],
+  "precision_boundaries": [
+    "translation/correspondence, not new derivation — each row cites existing results",
+    "only 'bond order <-> 1-form' symbolically verified; other four cite existing notes",
+    "full rigor needs Connes local index (Carey-Phillips) literature"
+  ]
+}

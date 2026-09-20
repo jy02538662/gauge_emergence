@@ -1,0 +1,22 @@
+{
+  "question": "does the derivative-type D=-i d/ds give a theta-summable spectral triple, Fourier-dual to the multiplication-type logρ (③ first half)?",
+  "answer": "YES",
+  "fourier_dual": "multiplication M_s and derivative -i d/ds both have Tr(e^{-tD^2}) = sqrt(pi/t)",
+  "lipschitz": "[D,f] = -i f' nontrivial (multiplication-type had [M_s,f]=0 trivial)",
+  "triple": "(C_c^∞(R), L²(R), -i d/ds): self-adjoint + nontrivial Lipschitz + theta-summable non-compact",
+  "arcsine_series": "(1/N)Σe^{-tλ^2} -> e^{-2t}I_0(2t) (arcsine-weighted, ties ②a to ③)",
+  "sympy": {
+    "derivative_theta": true,
+    "fourier_dual": true,
+    "lipschitz_nontrivial": true
+  },
+  "numpy": {
+    "arcsine_weighted_target": 0.308508322553671
+  },
+  "precision_boundaries": [
+    "1D scale-direction triple, not full spacetime D (3D = 1D scale × su(2))",
+    "dimension spectrum / Chern / local index not yet redefined under theta-summable",
+    "self-adjointness only on C_c^∞ (formal); essential self-adjointness is later math"
+  ],
+  "conclusion": "derivative-type D = -i d/ds is the Fourier dual of logρ, gives nontrivial Lipschitz, and defines a theta-summable spectral triple. This completes the weak-spectral-triple core."
+}

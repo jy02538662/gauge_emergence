@@ -1,0 +1,19 @@
+{
+  "question": "is D=logρ (modular flow generator, power-law spectrum ρ_i=1/i) theta-summable but non-compact, enabling the weak spectral triple (direction 1)?",
+  "answer": "YES",
+  "theta_summable": "Tr(e^{-tD^2}) = Σ i^{-t log i} converges (super-polynomial), t=1 -> 1.238",
+  "compactness_fails": "Dixmier trace (1/log N)Σ1/log(i) ~ N/log^2(N) diverges; |D|^{-1} not in any Schatten p-class (log decay, not power-law)",
+  "sympy": {
+    "identity": true,
+    "gaussian_kernel": true
+  },
+  "numpy": {
+    "theta_summable_converges": 1.2381813067966931
+  },
+  "precision_boundaries": [
+    "criterion check for theta-summable replacement, not full weak-spectral-triple construction",
+    "theta-summable sacrifices locality for heat-kernel regularity; dimension spectrum needs redefinition",
+    "D=logρ is the 1D scale-direction modular generator, not the full spacetime D"
+  ],
+  "conclusion": "P4's 'no compact D' is not a dead end: compact resolvent can be replaced by theta-summable (Connes' own relaxation), and D=logρ is theta-summable but non-compact."
+}

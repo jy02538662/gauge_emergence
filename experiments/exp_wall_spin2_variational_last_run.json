@@ -1,0 +1,20 @@
+{
+  "question": "does the spectral action heat-kernel a_2 term = scalar curvature = Einstein-Hilbert, the premise of Chamseddine-Connes 'spectral action -> EH'?",
+  "answer": "YES (premise verified)",
+  "a2": "heat-kernel a_2 = (1/6)∫R = scalar curvature (2D sphere: 4π/3)",
+  "angle_defect": "Σδ = 2πχ (discrete Gauss-Bonnet), angle defect = discrete scalar curvature (Q1)",
+  "spectral_action": "S=Tr f(D²/Λ²) a_2 term = ∫R = Einstein-Hilbert, variation -> G_μν = 8πG T_μν",
+  "lambda_c": "a_2 needs λ_c→∞ (continuous spectrum); finite lattice heat-kernel is Taylor (exp_gravity_a2)",
+  "sympy": {
+    "a2_scalar_curvature": true,
+    "gauss_bonnet": true
+  },
+  "numpy": {
+    "gauss_bonnet_discrete": true
+  },
+  "precision_boundaries": [
+    "a_2 = scalar curvature is 'scalar EH' (spin-0); spin-2 tensor curvature (Weyl) is a_4 (curvature-squared)",
+    "variation δ∫R = ∫G_μν δg_μν is standard result, sympy doesn't do tensor variation",
+    "'spectral action -> EH' is Chamseddine-Connes 1997 standard; we verify its premise (a_2 = R)"
+  ]
+}

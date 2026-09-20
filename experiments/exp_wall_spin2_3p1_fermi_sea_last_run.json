@@ -1,0 +1,32 @@
+{
+  "question": "does a REAL 3+1 Fermi sea (3 spatial directions, real bond order) with defect give Weyl != 0 (spin-2 seed), replacing the 1D-ring + interpolation bridge?",
+  "answer": "YES",
+  "N": 10,
+  "V": 0.8,
+  "x0": [
+    5,
+    5,
+    5
+  ],
+  "bond_order_uniform_std": {
+    "Tx": 1.196584037105312e-16,
+    "Ty": 9.51332223498421e-17,
+    "Tz": 8.364519294000074e-17
+  },
+  "bond_order_defect_std": {
+    "Tx": 0.0002937924404045334,
+    "Ty": 0.00029379244040452884,
+    "Tz": 0.00029379244040453085
+  },
+  "energy_density_uniform_std": 1.3028286255222155e-16,
+  "energy_density_defect_std": 0.004233934257639644,
+  "weyl_uniform": 0.0,
+  "weyl_defect": 2.607527267595019,
+  "real_3p1_opens_weyl": true,
+  "precision_boundaries": [
+    "3 spatial directions real-computed (3-direction bond order); time is a STATIC 0-component (∂_0=0) in the metric, not a 4D-lattice + time-difference Fermi sea (that is N^4, later)",
+    "metric built from bond-order fluctuation δT = T - mean(T) (not hand-picked absolute), uniform δT≈0 -> flat, cleanest contrast",
+    "3D bond field -> continuous 4D metric via trilinear interpolation (3 directions real, not 1D-ring 1-direction interpolation)"
+  ],
+  "conclusion": "Real 3D Fermi sea (3-direction bond order) with defect gives Weyl != 0, replacing the 1D-ring + interpolation bridge of step 1."
+}

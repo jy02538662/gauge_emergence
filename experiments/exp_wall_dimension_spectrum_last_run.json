@@ -1,0 +1,19 @@
+{
+  "question": "in theta-summable framework, does heat-kernel asymptotics Tr(e^{-tD^2})~sum c_j t^{-j/2} redefine dimension spectrum, distinguishing derivative-type from multiplication-type D?",
+  "answer": "YES",
+  "derivative": "Tr(e^{-tD^2})=sqrt(pi/t)=sqrt(pi)t^{-1/2}, power-law, dimension spectrum {1}",
+  "multiplicative": "Tr(e^{-tD^2}) ~ e^{1/(4t)}sqrt(pi/t), super-exponential, empty dimension spectrum",
+  "sympy": {
+    "derivative_power_law": true,
+    "multiplicative_superexp": true
+  },
+  "numpy": {
+    "derivative_slope": -0.5000000000000002
+  },
+  "precision_boundaries": [
+    "heat-kernel criterion, not full Carey-Phillips dimension spectrum theorem",
+    "only dominant power (dimension) checked, not subleading c_j",
+    "multiplicative 'empty dimension spectrum' = no geometric dimension (why it can't be spectral-triple D)"
+  ],
+  "conclusion": "dimension spectrum = heat-kernel asymptotic powers; distinguishes derivative (dim 1) from multiplication (no dim). New definition under theta-summable."
+}

@@ -1,0 +1,23 @@
+{
+  "question": "does discrete spectrum converge to continuous interval, measured by Hausdorff distance (coarsest version of spectral propinquity, direction 4)?",
+  "object": "symmetric tridiagonal Toeplitz adjacency matrix T_N (path graph P_N)",
+  "spectrum": "sigma_N = {2cos(k pi/(N+1))} -> [-2,2]",
+  "sympy": {
+    "eigenvalue_exact": true,
+    "charpoly_chebyshev": true,
+    "hausdorff_formula_exact": true,
+    "hausdorff_asymptotic": "d_H = 2 sin(pi/(2(N+1))) ~ pi/N (order 1)",
+    "edge_gap_asymptotic": "4 sin^2(pi/(2(N+1))) ~ pi^2/N^2 (order 2)"
+  },
+  "numpy": {
+    "hausdorff_slope": -0.9892376595504511,
+    "edge_gap_slope": -1.9768015280884021,
+    "dH_times_N_last": 3.1400591138818195
+  },
+  "precision_boundaries": [
+    "Hausdorff distance != spectral propinquity (no state space / algebra)",
+    "edge convergence != spectral measure convergence (no Weyl law yet)",
+    "does NOT touch P4 (compact D) - that is step 3 (weak spectral triple)"
+  ],
+  "conclusion": "d_H(sigma_N, [-2,2]) = 2 sin(pi/(2(N+1))) (N even) / sin(pi/(N+1)) (N odd) ~ pi/N (order 1); edge gap ~ pi^2/N^2 (order 2) = scale generation. First symbolic+numeric anchor of the smoothing line."
+}

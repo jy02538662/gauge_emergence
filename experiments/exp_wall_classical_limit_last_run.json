@@ -1,0 +1,23 @@
+{
+  "question": "is λ_c→∞ the classical limit (observer→∞ = no-preference = scale-invariant), giving non-compact D (Dixmier diverges) but theta-summable?",
+  "answer": "YES",
+  "classical_limit": "λ_c→∞ = observer classicalization (finite observer → omniscient = no preference)",
+  "compactness": "Dixmier trace: λ_c=5 → 3.85 (compact), λ_c→∞ → 832 (non-compact, diverges)",
+  "theta_summable": "Tr(e^{-tD^2}) converges for all λ_c (0.37 → 1.238), stays trace-class",
+  "dimension": "dimension spectrum π/t (dim 3) invariant under λ_c→∞",
+  "sympy": {
+    "theta_summable": true,
+    "dimension_invariant": true
+  },
+  "numpy": {
+    "dixmier_lc5": 3.849006365189922,
+    "dixmier_inf": 832.8313269816208,
+    "theta_inf": 1.2381716137036998
+  },
+  "precision_boundaries": [
+    "λ_c→∞ is observer-classicalization (core); N→∞ and q→1 are mathematical prep (may all be needed)",
+    "dimension spectrum invariant under λ_c→∞ (asymptotic, not cutoff-dependent)",
+    "criterion check, NOT full classical-GR derivation (that is step 3)"
+  ],
+  "conclusion": "classical limit λ_c→∞ = non-compact D (continuous manifold) but theta-summable = weak spectral triple (direction 1). This is the object of the classical limit."
+}

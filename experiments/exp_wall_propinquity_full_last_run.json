@@ -1,0 +1,22 @@
+{
+  "question": "explicit Gromov-Hausdorff bridge gives propinquity upper bound max(height, reach) ~ O(1/N)?",
+  "bridge": "D=C([-2,2]), L_D=||f'||_inf, pi_inf=id, pi_N=piecewise-linear interp at spectrum",
+  "sympy": {
+    "height_eq_half_delta": true,
+    "height_order": 1,
+    "reach_order": 2
+  },
+  "numpy": {
+    "height_slope": -0.9892376595504678,
+    "reach_slope": -1.970539932820962,
+    "combo_slope": -0.9892376595504678
+  },
+  "key": "height (state-space gap) order 1; reach (Lipschitz transfer) order 2 after arcsine rescaling; propinquity = max(height,reach) order 1, dominated by state-space gap",
+  "honest_note": "in this 1D case GH=Hausdorff (natural embedding optimal); GH adds no tightening here",
+  "precision_boundaries": [
+    "explicit natural bridge height+reach, not full propinquity (no inf over all bridges)",
+    "GH = Hausdorff in this 1D case (natural embedding already optimal)",
+    "does NOT touch P4"
+  ],
+  "conclusion": "propinquity <= max(height,reach) ~ O(1/N) -> 0. State-space gap dominates; arcsine rescaling made reach second order."
+}

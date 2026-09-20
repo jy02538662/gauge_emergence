@@ -1,0 +1,19 @@
+{
+  "question": "does T_μν = bond order (Hellmann-Feynman) couple to G_μν (spectral-action variation) with conservation ∇^μ T_μν = 0 (Bianchi self-consistency)?",
+  "answer": "YES (assembly + conservation)",
+  "matter_source": "T_ij = bond order = δE/δD (Hellmann-Feynman, off-diagonal shear = Weyl seed)",
+  "conservation": "∇^μ T_μν = 0 = Bianchi self-consistency (∇^μ G_μν = 0 identity), not extra assumption",
+  "components": "T_00 (energy) + T_ij (bond order) + T_0i (vortex); latter two done, T_00 needs 3+1 Fermi sea",
+  "sympy": {
+    "bond_order_matter_source": true
+  },
+  "numpy": {
+    "uniform_divergence": 6.106226635438361e-16,
+    "defect_divergence": 0.04287885419878912
+  },
+  "precision_boundaries": [
+    "assembly + conservation, not full explicit T_μν tensor (T_00/T_0i full form needs 3+1 Fermi sea)",
+    "conservation ∇^μ T_μν=0 is Bianchi self-consistency (standard); symbolic 'bond=matter + conservation chain'",
+    "full G_μν=8πG T_μν numerical match needs full T_μν + continuum limit (later)"
+  ]
+}

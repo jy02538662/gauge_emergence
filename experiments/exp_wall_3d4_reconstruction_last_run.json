@@ -1,0 +1,17 @@
+{
+  "question": "do the first-order condition (c) and smoothness (d) hold for the crossed-product triple (stage B of 3.4)?",
+  "answer": "YES for (c)(d); (a) commutativity is the hard obstacle",
+  "first_order_condition": "[[D_R, a], b] = 0 trivial (D_R first-order Dirac, f' commutes with b)",
+  "smoothness": "[D_R, [D_R, f]] = -f'' bounded iff f smooth",
+  "sympy": {
+    "first_order": true,
+    "smoothness": true,
+    "multiplicative_trivial": true
+  },
+  "obstacle": "(a) commutativity: crossed product R⋊_σ ℝ is a factor (center ℂ), cannot recover C^∞(M) directly — needs abelianization (E → MASA → C^∞, = P1 wall)",
+  "precision_boundaries": [
+    "only (c)(d) verified symbolically; (a) is conceptual (factor theory); (b) relaxed, (e) done",
+    "(c)(d) trivial is GOOD news: D_R first-order Dirac, so first-order + smoothness automatic",
+    "candidate weak-reconstruction theorem (stage D) NOT written — needs (a) abelianization first"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "question": "does the 3D Dirac D=-i σ·∇ (scale direction × su(2)) have heat-kernel trace (π/t)^{3/2}, i.e. dimension spectrum = 3?",
+  "answer": "YES",
+  "d_dim_trace": "Tr(e^{-tD^2}) = (π/t)^{d/2} = π^{d/2} t^{-d/2}, dimension spectrum = {d}",
+  "sympy": {
+    "dim1": true,
+    "dim3": true,
+    "lipschitz": true
+  },
+  "numpy": {
+    "slope_d3": -1.5
+  },
+  "precision_boundaries": [
+    "only dominant power (dimension d) checked, not subleading c_j",
+    "3D = radial × angular tensor product, not verified as su(2)-spontaneous (see 升维内生)",
+    "discrete 3D Dirac self-adjointness checked, not discrete->continuous trace convergence"
+  ],
+  "conclusion": "dimension spectrum = geometric dimension (d-dim Dirac gives d). 3D Dirac (scale × su(2)) has dimension spectrum {3}. Step 2 done."
+}

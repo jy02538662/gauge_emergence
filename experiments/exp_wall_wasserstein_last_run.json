@@ -1,0 +1,21 @@
+{
+  "question": "does empirical spectral measure mu_N = (1/N) sum delta_{2cos(k pi/(N+1))} converge weakly (Wasserstein-1) to arcsine, and at what rate?",
+  "limit_measure": "arcsine on [-2,2], density 1/(pi sqrt(4-lambda^2)) (NOT uniform)",
+  "sympy": {
+    "arcsine_normalized": true,
+    "arcsine_cdf": true,
+    "pushforward_density": true
+  },
+  "numpy": {
+    "wasserstein_arcsine_slope": -0.9999941384877944,
+    "hausdorff_slope": -0.9892376595504678,
+    "wasserstein_uniform_last": 0.27288487718264537
+  },
+  "precision_boundaries": [
+    "Wasserstein-1 != spectral propinquity (missing Gromov-Hausdorff bridge / algebra transfer)",
+    "carries state space + Lipschitz dual (MK metric) - the state-space component of propinquity",
+    "does NOT touch P4 (compact D)"
+  ],
+  "correction": "spectral distribution limit (1D Weyl) = arcsine, NOT uniform",
+  "conclusion": "W_1(mu_N, arcsine) ~ N^-1 (order 1, -> 0); W_1(mu_N, uniform) -> nonzero constant. State-space component of propinquity anchored."
+}

@@ -1,0 +1,12 @@
+{
+  "question": "does REAL bond order (not hand-picked) with defect give Weyl != 0 (spin-2 curvature seed)?",
+  "answer": "YES",
+  "uniform_weyl": 3.1732647321171586e-12,
+  "defect_weyl": 702.6085412025419,
+  "real_bond_order_opens_weyl": true,
+  "precision_boundaries": [
+    "real bond order is 1D ring, Weyl is 4D — bridged by interpolation + off-diagonal component (1D->4D simplification; true 4D bond order needs 3+1 Fermi sea)",
+    "Weyl != 0 is seed (necessary), not long-range curvature — long ⟂ curve is step 2",
+    "discrete->continuum via interpolation, wall not touched"
+  ]
+}

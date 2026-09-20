@@ -1,0 +1,21 @@
+{
+  "question": "does the classical limit λ_c→∞ give flat or curved geometry?",
+  "answer": "FLAT (curvature comes from defects / matter source)",
+  "reasoning": "λ_c→∞ = no-preference = scale-invariant = translation-invariant = constant metric = flat; curvature = position-dependent = needs defect",
+  "connes_distance": "uniform w=1 -> d(0,x)=x (flat); defect w=1+εs -> d(0,x)=ln(1+εx)/ε (curved); ε->0 -> flat",
+  "sympy": {
+    "flat": true,
+    "curved_log": true,
+    "limit_flat": true
+  },
+  "numpy": {
+    "flat_linear": true,
+    "curved_position_dependent": true
+  },
+  "precision_boundaries": [
+    "flat-vs-curved criterion check, not full curved-GR derivation",
+    "defect short-vs-long range not checked (exp_spin2_metric_selfref: defect short, long⟂curve)",
+    "classical limit gives FLAT = kinematic closure only half (flat half); curved half via matter source"
+  ],
+  "conclusion": "classical limit gives FLAT (no-preference = scale-invariant = translation-invariant); curvature comes from defects (matter source). 'Flat + matter -> curved' = effective EH."
+}

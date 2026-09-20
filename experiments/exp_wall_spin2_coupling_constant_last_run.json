@@ -1,0 +1,15 @@
+{
+  "question": "does 8πG match (a_2 coefficient -> Newton constant) + is defect divergence a hand-put artifact?",
+  "answer": "YES",
+  "coupling_constant": "G = 3/(8π f1 Λ²), Newton constant from spectral-action parameters (cutoff Λ + moment f1)",
+  "conservation": "∇^μ T_μν = 0 is Noether theorem for generally-covariant matter; hand-put source (V) divergence ≠ 0 is artifact, physical source auto-conserves",
+  "sympy": {
+    "G_solved": "3/(8*pi*Lambda**2*f1)",
+    "match_check": true
+  },
+  "precision_boundaries": [
+    "8πG match is Chamseddine-Connes 1997 standard; we symbolically verify G=3/(8π f1 Λ²)",
+    "conservation clarification is Noether-theorem concept, not new numerics",
+    "full physical-source T_μν (from matter action variation) needs 3+1 Fermi sea (later)"
+  ]
+}

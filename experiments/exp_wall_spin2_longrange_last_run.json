@@ -1,0 +1,19 @@
+{
+  "question": "does λ_c→∞ (massless) + defect give LONG-RANGE h_μν (1/r), breaking the 'long ⟂ curve' wall?",
+  "answer": "YES (propagator level)",
+  "massive": "λ_c finite: h_μν ~ e^{-mr}/(4πr) (Yukawa, exponential short-range)",
+  "massless": "λ_c→∞: h_μν ~ 1/(4πr) (Coulomb, power-law long-range)",
+  "wall_breaks": "long ⟂ curve is a λ_c-finite phenomenon; at λ_c→∞ the wall breaks (long-range curvature)",
+  "sympy": {
+    "yukawa_limit_coulomb": true
+  },
+  "numpy": {
+    "slope_massless": -0.9999999999999999,
+    "slope_massive": -4.318198594044619
+  },
+  "precision_boundaries": [
+    "propagator/Green-function level; full spin-2 metric dynamics (variational principle) is step 3",
+    "m ∝ 1/λ_c from scale-dependent observer; exact m(λ_c) needs Hessian mass gap (exp_gravity_mass_gap)",
+    "massless long-range = propagator version of observer-state path 1/r (模流接回)"
+  ]
+}

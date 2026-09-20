@@ -1,0 +1,22 @@
+{
+  "question": "is D_R = σ_z⊗(-i d/dt) + σ_x⊗H_mod a tensor-metric Dirac operator (spin-2), not a scalar-modulus function (spin-0)?",
+  "answer": "YES (spinor-ness criterion)",
+  "criterion": "D acts on 2-component spinor (σ_z,σ_x are 2×2) = tensor metric (vielbein) = spin-2; 1-component scalar = scalar metric (modulus r_ij) = spin-0",
+  "clifford": "{σ_z,σ_x}=0 + σ_z²=σ_x²=I (signature η, flat metric)",
+  "metric": "flat metric (vielbein = identity); curvature via defect (bond order → h_μν → Weyl≠0)",
+  "consequence": "spectral action a_2 variation gives spin-2 G_μν (standard GR)",
+  "sympy": {
+    "clifford_anticomm": true,
+    "gamma_square": true,
+    "spinor_dim": 2
+  },
+  "numpy": {
+    "spinor_dim": 96,
+    "scalar_dim": 48
+  },
+  "precision_boundaries": [
+    "spinor-ness criterion check (D_R is 2-component spinor Dirac = tensor metric), not full curved-metric construction",
+    "flat metric (vielbein=identity) is the λ_c→∞ classical-limit result; curvature via defect (steps 1-2)",
+    "confirms tensor-ness, not constructs curved metric"
+  ]
+}

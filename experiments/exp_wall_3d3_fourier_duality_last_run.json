@@ -1,0 +1,17 @@
+{
+  "question": "are the crossed-product R-direction (-i d/dt) and scale direction (H_mod=logρ) Fourier-dual (same 1D geometric direction), giving total dim 1+2=3?",
+  "answer": "YES (concept + symbolic verification of key lemmas)",
+  "modular_flow_phase_modulation": "rho^it = e^{it logC} e^{-ist} (Fourier kernel), t <-> s dual",
+  "fourier_duality": "F[-i f'](k) = k F[f](k), derivative <-> multiplication",
+  "takesaki_dual": "σ̂_s(U(t)) = e^{ist} U(t) (phase modulation), dual group param s = scale",
+  "conclusion": "crossed R = scale direction (Fourier dual, same 1D geometric direction); total dim = 1 + 2 (su(2)) = 3, matches physics",
+  "sympy": {
+    "modular_phase": true,
+    "fourier_dual": true
+  },
+  "precision_boundaries": [
+    "concept + lemma verification, not full Takesaki-duality rigorization",
+    "'crossed R = scale' should read 'conjugate dual' (same 1D direction, two reps)",
+    "does NOT touch 3.4 (reconstruction theorem)"
+  ]
+}
