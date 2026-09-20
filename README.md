@@ -416,3 +416,60 @@ py -m experiments.exp_division_ladder
 | `exp_effective_completion` | 物理 G 标定 + 自旋 2 平层？ | ✅ G_物理=G_自然/m²（量纲）；{γ^μ,γ^ν}=2η^μν（号差 -+++）；helicity ±2 |
 
 **第三十二轮核心**：有效通两个「可攻」下一步都做了——物理 G 标定（量纲关系，m 物理值=尺度读出）+ 自旋 2 平层（号差+helicity+1/r）。剩唯一真墙 = 自旋 2 弯曲层（长程 ⟂ 弯曲 = 离散→连续）。见 vault [[有效理论收尾：物理G标定+自旋2平层（剩唯一真墙=弯曲层）]]。
+
+---
+
+## 新数学：离散→连续的光滑化（2026-09-19，十一砖 + 三级台阶 + 转向四步）
+
+> 引力侧最后卡点 = 离散→连续的光滑化（Connes 核心）。这一大轮从「谱点集」推到「弱谱三元组 + 交叉积破墙 + 转向非交换几何对象」，全程 sympy 符号验证。详见 vault [[新数学起步提纲：光滑化线三步走（Hausdorff→propinquity→弱谱三元组）]]。
+
+### 度量工具链（方向 4：谱邻近性收敛）
+
+| 实验 | 问题 | 结果 |
+| --- | --- | --- |
+| `exp_wall_spectral_propinquity` | ① Hausdorff 距离度量谱点集收敛 | ✅ d_H(σ_N,[-2,2]) = 2sin(π/(2(N+1)))（N偶）/ sin(π/(N+1))（N奇）~ π/N（一阶） |
+| `exp_wall_wasserstein` | ②a 谱测度 Wasserstein 收敛 | ✅ W_1(μ_N, arcsine) ~ N^-1（一阶）；极限 = arcsine 分布（非均匀） |
+| `exp_wall_lipschitz_bridge` | ②b Lipschitz 半范桥梁传递 | ✅ L_N = 2·sup\|f'\|·δλ(λ)，δλ=π√(4-λ²)/N（arcsine 缩放） |
+| `exp_wall_propinquity_full` | ②b 第二半 GH 桥梁显式上界 | ✅ propinquity ≤ max(height,reach) ~ O(1/N)，height 一阶 / reach 二阶 |
+
+### 造框架（方向 1：弱谱三元组）
+
+| 实验 | 问题 | 结果 |
+| --- | --- | --- |
+| `exp_wall_theta_summable` | ③ theta-summable 替换紧 D | ✅ D=logρ theta-summable（e^{-tD²} 迹类）但非紧（Dixmier 迹发散） |
+| `exp_wall_spectral_triple` | ③ 第二半 导数型谱三元组 | ✅ 傅里叶对偶 logρ ↔ -i d/ds，Lipschitz 非平凡 |
+
+### 三级台阶
+
+| 实验 | 问题 | 结果 |
+| --- | --- | --- |
+| `exp_wall_dimension_spectrum` | 台阶1 维度谱重定义 | ✅ 热核渐近：导数型幂律 t^{-1/2}（维度1）/ 乘法型超指数 e^{1/4t}（维度空） |
+| `exp_wall_dimension_3d` | 台阶2 3D Dirac 维度谱 | ✅ d 维热核迹 (π/t)^{d/2}，维度谱 = 几何维度（3） |
+| `exp_wall_crossed_product` | 台阶3·3.1+3.2 交叉积 D_R | ✅ 号差 + 自伴 + Lipschitz + 热核迹 π/t（维度2） |
+| `exp_wall_3d3_fourier_duality` | 3.3 模流共轭 | ✅ 交叉积 ℝ = 尺度方向（傅里叶对偶），几何维 1+2=3 |
+| `exp_wall_3d4_reconstruction` | 3.4 阶段B 重建条件 | ✅ (c)一阶 + (d)光滑 平凡满足；(a)交换化 = 硬障碍 |
+
+### 转向：非交换几何对象 + 经典极限
+
+| 实验 | 问题 | 结果 |
+| --- | --- | --- |
+| `exp_wall_classical_limit` | 第二步 经典极限 λ_c→∞ | ✅ λ_c→∞ = 非紧 D 但 theta-summable（观察者经典化） |
+| `exp_wall_step3_physics` | 第三步 接回物理 | ✅ 键序 K=δE/δD ↔ 1-形式 [D,a]（Hellmann-Feynman） |
+| `exp_wall_classical_curvature` | 第四步实验 平 vs 弯曲 | ✅ 经典极限给平（均匀 d=x 线性），弯曲来自物质源（缺陷 d=ln(1+εx)/ε 对数） |
+
+### 自旋 2 弯曲层（从标量升级到张量，2026-09-19 六步 + 2026-09-20 三处显式收尾，✅ 严格闭合）
+
+| 实验 | 问题 | 结果 |
+| --- | --- | --- |
+| `exp_wall_spin2_curvature` | 第一步：真算键序 → Weyl | ✅ 均匀环键序 Weyl=3e-12（共形平坦）；缺陷环键序 Weyl=703（≠0，自旋 2 种子） |
+| `exp_wall_spin2_longrange` | 第二步：λ_c→∞ + 缺陷 → 长程 | ✅ λ_c 有限 e^{-mr}/r 短程；λ_c→∞ 1/r 长程（墙破，传播子层面） |
+| `exp_wall_spin2_variational` | 第三步：变分 → EH | ✅ 热核 a_2=(1/6)∫R=标量曲率，变分给 spin-2 爱因斯坦张量 G_μν |
+| `exp_wall_spin2_metric_nature` | 第四步：确认 D_R 是张量度规 Dirac | ✅ 旋量性判据：σ_z,σ_x 是 2×2（2 分量旋量）= 张量度规（spin-2），非标量 |
+| `exp_wall_spin2_coupling` | 第五步：完整耦合 + 守恒律 | ✅ 物质源 T_ij=键序=δE/δD；守恒律 ∇^μ T_μν=0（Bianchi 自洽性）；Einstein 方程闭环 |
+| `exp_wall_spin2_coupling_constant` | 第六步：8πG 匹配 + 缺陷散度精确化 | ✅ G=3/(8π f1 Λ²)；缺陷散度≠0 是手放源伪影，物理源守恒（Noether） |
+| `exp_wall_spin2_3p1_fermi_sea` | 收尾①：3+1 费米海（真 3D 键序 → Weyl） | ✅ N=10 干净尺寸；均匀 Weyl=0（精确）、缺陷 Weyl=2.61（替换 1D+插值） |
+| `exp_wall_spin2_physical_source` | 收尾②：物理源 T_μν（广义协变物质场） | ✅ 标量场 S_m 变分给 T_μν；∂^μ T_μν=(□φ-m²φ)∂_νφ=0（Noether 守恒） |
+| `exp_wall_spin2_cc_verification` | 收尾③a：弱场变分 → G_μν + Bianchi | ✅ Christoffel→Ricci→R→G_μν=R_μν-½R g_μν；∂^μ G_μν=0 精确（4 分量 =0） |
+| `exp_wall_spin2_heat_kernel` | 收尾③b：热核展开 → a_2=(1/6)∫R | ✅ 谱作用量条件 + Lichnerowicz D²=∇*∇+¼R + 2D 球面热核 Z(t)→r²/t+⅓（4D 系数靠 Gilkey） |
+
+> **三处留白（投 arXiv/Zenodo 前写进诚实边界）**：① 4D Seeley–DeWitt 系数靠 Gilkey（2D 自证）；② D_R 是 2D 交叉积，4D D_{3+1} 未构造；③ 物理源是标量场。见 vault [[预印本1.8发布检查清单（三处留白）]]。
