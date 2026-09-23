@@ -1,0 +1,8 @@
+{
+  "question": "extract the gauge-field F^2 term of a_4 (Yang-Mills dynamics source) from the color-coupled Dirac",
+  "gamma_identity_ok": true,
+  "trE2_F2_ratio": "-2",
+  "trOmega2_F2_ratio": "4",
+  "a4_F2_coefficient": "-2/3",
+  "conclusion": "a_4 contains -(1/24π²)∫tr(F²) gauge term (Yang-Mills dynamics), symbolically verified via explicit gamma matrices (tr E²=-2trF², tr Ω²=4trF²)."
+}

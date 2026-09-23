@@ -1,0 +1,9 @@
+{
+  "question": "4D Seeley-DeWitt: extract a_2 (-> EH) and a_4 coefficients",
+  "lichnerowicz": "D² = ∇*∇ + R/4",
+  "a2_integrand": "R/6 + R/4 (spinor trace 4)",
+  "a2_result": "-R/(48*pi**2)",
+  "a4_gilkey": "c1 R² + c2 R_μν² + c3 R_μνρσ² + c4 □R (Gilkey table)",
+  "conclusion": "a_2 (scalar curvature -> EH) derived via Lichnerowicz + heat-kernel; a_4 still Gilkey table (full recomputation = later work).",
+  "boundary": "a_2 derived; a_4 = Gilkey lookup (same level as Stokes-theorem dependence), not recomputed — full 4D a_4 is a large task (Gilkey original)."
+}

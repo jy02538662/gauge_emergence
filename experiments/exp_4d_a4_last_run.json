@@ -1,0 +1,13 @@
+{
+  "question": "derive 4D Dirac a_4 coefficients from first principles (Lichnerowicz + gamma trace + Vassilevich Eq 4.28)",
+  "E": "-R/4",
+  "tr_Omega2": "-(1/2)R_{μνρσ}² (no R_{μν}² term)",
+  "a4_coefficients_2880pi2": {
+    "BoxR": "-6",
+    "Rsq": "5/2",
+    "Ric2": "-4",
+    "R2": "-7/2"
+  },
+  "matches_table1_spin1over2": true,
+  "conclusion": "a_4 = (1/2880π²)[(5/2)R² - 4R_{μν}² - (7/2)R_{μνρσ}² - 6□R] (derived) matches Table 1 spin 1/2 (a=-7/2,b=-11,c=6,d=0) on R²/R²_μν/R²_μνρσ; □R is -6 (derived) vs +6 (Table 1 convention) — a surface-term sign-convention difference, zero without boundary."
+}

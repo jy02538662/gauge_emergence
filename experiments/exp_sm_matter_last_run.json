@@ -1,0 +1,10 @@
+{
+  "question": "construct D_{R(x)M_3} and verify self-adjointness, theta-summability, first-order condition",
+  "self_adjoint_D3_zero": 0.0,
+  "self_adjoint_D3_lam8": 0.0,
+  "theta_summable_ratio": 0.9999999999999999,
+  "first_order_D3_zero": 0.0,
+  "first_order_D3_scalar": 0.0,
+  "first_order_D3_lam8": 3.4641016151377553,
+  "conclusion": "color M_3 couples self-adjointly + theta-summably; first-order condition forces D_3 = c*I_3 (scalar) -> color is internal index only (no internal dynamics)."
+}

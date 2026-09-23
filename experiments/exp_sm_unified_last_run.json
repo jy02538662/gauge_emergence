@@ -1,0 +1,9 @@
+{
+  "question": "verify a_2 (gravity) + a_4 (gauge + curvature) unify in one spectral action",
+  "a2": "-R/(48*pi**2)",
+  "a4_gauge": "-F2/(24*pi**2)",
+  "a4_gravity": "(R**2/1152 - 7*R2/5760 - Ric2/720)/pi**2",
+  "a2_gravity_only": true,
+  "a4_has_gauge_and_gravity": true,
+  "conclusion": "one spectral action S=Tr f(D²/Λ²): a_0→cosmological constant, a_2→Einstein-Hilbert gravity, a_4→Yang-Mills gauge + higher curvature. Gravity and SM gauge unify in one spectral action."
+}

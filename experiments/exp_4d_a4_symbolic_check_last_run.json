@@ -1,0 +1,8 @@
+{
+  "question": "symbolically verify the core identities of the a4 derivation (explicit gamma matrices, no hand-trace)",
+  "clifford_ok": true,
+  "four_gamma_trace_ok": true,
+  "commutator_trace_ok": true,
+  "tr_Omega2_ok": true,
+  "conclusion": "all identities verified symbolically; tr(Omega^2) = -(1/2)R^2_{munurhosigma} confirmed on S^4 constant curvature without hand-derived gamma trace."
+}

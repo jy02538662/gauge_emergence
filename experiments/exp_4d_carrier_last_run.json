@@ -1,0 +1,9 @@
+{
+  "question": "construct the 4D carrier D_{3+1} = time × radial × S², dimension spectrum {4}?",
+  "s2_dirac_spectrum": "±k (k=1,2,...), degeneracy 4k",
+  "s2_heat_kernel_leading": "2/t (= area/(2πt), S² area 4π)",
+  "four_d_heat_kernel": "2π/t² (dimension 4)",
+  "gamma_anticommute": true,
+  "conclusion": "4D Dirac D_{3+1} = time × radial × S² has heat-kernel trace 2π/t², dimension spectrum {4}. A1 done (carrier constructed).",
+  "boundary": "S² continuum spectrum approximated by 2 angular differences in discrete version; full convergence to ±k spectrum not yet verified."
+}
