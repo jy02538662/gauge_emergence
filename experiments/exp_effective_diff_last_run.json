@@ -1,0 +1,14 @@
+{
+  "question": "does position-dependent discrete transformation converge to continuous diffeomorphism (effective Diff)?",
+  "uniform_diff_slope": -0.9969036389577898,
+  "linear_interp_slope": -1.9776129154851732,
+  "fourier_interp_slope": 0.049560523119072525,
+  "fourier_err_N512": 1.214306433183765e-15,
+  "lie_bracket_rel_errs": [
+    0.6497272823431485,
+    0.34526000848052907,
+    0.1779584022024756,
+    0.09380047089164024
+  ],
+  "conclusion": "position-dependent discrete transformation DOES converge to continuous diffeomorphism under interpolation (effective Diff holds); convergence order is set by interpolation order (smoothness presumption): linear O(h^2), spectral exponential. The wall is precisely at 'where does the interpolation structure (smoothness) come from' = smoothing = weak reconstruction theorem does not exist. Diff is not blocked by 'position-dependence', but by 'interpolation = presuming smoothness'."
+}

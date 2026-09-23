@@ -1,0 +1,15 @@
+{
+  "question": "does 4D smoothness come from the axiom (observer spectrum × S² × time), i.e. is general covariance a corollary of the axiom?",
+  "lie_bracket_symbolic": [
+    "sin(s)**2*sin(t) - cos(s)",
+    "(sin(theta)*cos(phi) + 1)*sin(phi)",
+    "-1",
+    "sin(s)*sin(t)*cos(t)"
+  ],
+  "commutator_rel_errs": [
+    0.02877893582775651,
+    0.01421815500935794,
+    0.007062568091406961
+  ],
+  "conclusion": "4D smoothness = product of 1D (observer spectrum s=log λ) × 2D (S², su(2)) × 1D (time, modular flow), each with an axiom/known origin; the product manifold's differential structure is the standard product of the factors (no new mechanism). The 4D Lie bracket [u,v] emerges from the discrete displacement commutator (O(ε)). So 4D smoothness comes from the axiom, and general covariance is a corollary of the axiom."
+}

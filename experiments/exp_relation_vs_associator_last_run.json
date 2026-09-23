@@ -1,0 +1,9 @@
+{
+  "H_associative": true,
+  "binary_relation_k_associative": true,
+  "octonion_associator_e1e2e4_nonzero": true,
+  "octonion_associator_e1e2e4_unit": 7,
+  "octonion_associator_e1e2e4_sign": 2.0,
+  "octonion_H_subalgebra_associative": true,
+  "conclusion": "non-associativity requires the NEW unit e4, not a relation within H"
+}

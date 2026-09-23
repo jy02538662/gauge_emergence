@@ -1,0 +1,8 @@
+{
+  "z3_physical_on_4x4": false,
+  "n_order3_fano": 56,
+  "orthogonal_by_construction": true,
+  "z3_order": 3,
+  "su3_dim": 8,
+  "conclusion": "Z3 physical != SU(3) 8-dim"
+}

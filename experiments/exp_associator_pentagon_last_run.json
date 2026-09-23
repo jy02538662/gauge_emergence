@@ -1,0 +1,27 @@
+{
+  "H_n3": {
+    "n_parenthesizations": 2,
+    "n_distinct": 1
+  },
+  "H_n4": {
+    "n_parenthesizations": 5,
+    "n_distinct": 1
+  },
+  "H_n5": {
+    "n_parenthesizations": 14,
+    "n_distinct": 1
+  },
+  "O_n3": {
+    "n_parenthesizations": 2,
+    "n_distinct": 2
+  },
+  "O_n4": {
+    "n_parenthesizations": 5,
+    "n_distinct": 5
+  },
+  "O_n5": {
+    "n_parenthesizations": 14,
+    "n_distinct": 14
+  },
+  "conclusion": "octonion is strong non-associative (not coherent), hence NOT a fusion category; the coherent 'order' carrier is the F-symbol (weak associativity)"
+}

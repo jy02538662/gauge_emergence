@@ -1,0 +1,11 @@
+{
+  "question": "does the smoothness (interpolation) needed by Diff come from the continuity of the observer-state spectrum (not a hand-put grid)?",
+  "s_log_lambda_uniform": 0.0,
+  "difference_slope": -0.9997419758926672,
+  "lie_derivative_rel_errs": [
+    0.04477619794545817,
+    0.022690714125992398,
+    0.011873454039133978
+  ],
+  "conclusion": "smoothness comes from the observer-state spectrum s=log λ (ρ=C/λ, scale-invariance ⟹ s uniform ⟹ continuous manifold ⟹ differential structure). So 'interpolation = hand-put smoothness' is revised: smoothness is endogenous (scale-invariance = no-preference = axiom), not a hand-put wall. The wall further reduces to the axiom itself (no-preference → scale-invariance → continuous spectrum)."
+}

@@ -1,0 +1,18 @@
+{
+  "omegas": [
+    1.0,
+    2.0,
+    4.0,
+    8.0,
+    16.0
+  ],
+  "cross_term_normB2": [
+    0.004440956708415989,
+    0.017759444145555945,
+    0.07096768816969956,
+    0.28275154984231987,
+    1.1132398796052276
+  ],
+  "slope_vs_omega": 1.993223314647421,
+  "conclusion": "cross term [D_t,H_mod] (evolution, time derivative) has ||B||^2 ∝ ω^2, entering a_4 not a_2"
+}

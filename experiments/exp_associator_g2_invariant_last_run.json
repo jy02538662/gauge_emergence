@@ -1,0 +1,7 @@
+{
+  "n_fano_automorphisms": 168,
+  "n_sign_lifts": 1344,
+  "lift_is_eightfold": true,
+  "associator_invariant_example": true,
+  "conclusion": "168 Fano automorphisms lift 8-fold to 1344 octonion automorphisms preserving the associator"
+}

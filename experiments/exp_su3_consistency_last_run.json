@@ -1,0 +1,10 @@
+{
+  "U3_unitary": true,
+  "U3_det1": true,
+  "hermitian_preserved": true,
+  "frobenius_norm_preserved": true,
+  "su2_subalgebra_ok": true,
+  "u1_commutes_with_su2": true,
+  "su3_lie_closed": true,
+  "conclusion": "SU(3) as internal-color input is consistent with axioms and preserves U(2)"
+}

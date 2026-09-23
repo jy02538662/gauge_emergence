@@ -1,0 +1,5 @@
+{
+  "cl3_lie_real_rank": 6,
+  "su3_lie_real_rank": 8,
+  "conclusion": "Cl(3) Lie algebra (sl(2,C)/su(2)) != su(3); 8=8 is a dimension coincidence"
+}

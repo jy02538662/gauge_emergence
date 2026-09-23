@@ -1,0 +1,6 @@
+{
+  "R": "6*(a(t)*Derivative(a(t), (t, 2)) + Derivative(a(t), t)**2)/a(t)**2",
+  "R_has_time_derivatives": true,
+  "matches_FLRW_formula": true,
+  "conclusion": "4D scalar curvature R contains ∂_t² (time derivative), so a_2 = (1/6)∫R carries evolution — unlike 2D (evolution in a_4)"
+}

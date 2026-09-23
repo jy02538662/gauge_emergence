@@ -1,0 +1,10 @@
+{
+  "sz_sx_is_isy": true,
+  "sx_sz_is_neg_isy": true,
+  "anticommutator_zero": true,
+  "dynamic_offdiag_nonzero": true,
+  "offdiag_norm": 1.0623567745029439,
+  "dHdt_norm": 1.502399358580999,
+  "static_offdiag_zero": true,
+  "conclusion": "D_R^2 = -d2t + H_mod^2 + σ_y⊗(∂_t H_mod); cross term is the evolution (time derivative), old note missed it for dynamic H_mod"
+}

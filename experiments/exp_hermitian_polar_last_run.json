@@ -1,0 +1,10 @@
+{
+  "D_hermitian": true,
+  "polar_decomposition_ok": true,
+  "U_involutive_Z2": true,
+  "U_eigenvalues_pm1": true,
+  "n_plus": 4,
+  "n_minus": 4,
+  "generic_phase_on_unit_circle": true,
+  "conclusion": "Hermitian D's phase = sign(D) = Z2 (断裂=SU(2)), not continuous U(1)"
+}
