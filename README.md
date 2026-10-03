@@ -43,6 +43,7 @@ py -m experiments.exp_division_ladder
 | `exp_spectrum_time_invariance` | 梯度流×J 是真动力学还是相位旋转？ | ⚠️ 相位旋转（谱不变），不是真动力学（A20 需修正） |
 | `exp_H_from_D` | H = f(D) 的 f 是什么？ | ✅ H=D 的低能投影（Dirac 点线性化），色散正确 |
 | `exp_dirac_action` | 费米子作用量（Dirac action）变分给 Dirac 方程？ | ✅ 色散 E²=p²+m²，标准构造（桥 A 已给 H） |
+| `scale_readout_probe` | 8πG 匹配 + YM 匹配（G=3π/(f₂Λ²), g²=6π²/f₄）+ f 矩比值 | 符号，纯 print |
 
 ## 关键锚点（防岔路）
 
